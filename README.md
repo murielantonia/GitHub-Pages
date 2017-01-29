@@ -2,7 +2,7 @@
 [Informatikstunde 14](#vierzehn)
 
 
-## Informatikstunde 14 <a name="vierzehn"><a/>
+## Informatikstunde 14 <a name="vierzehn"><a/>                                                                            26.01.2017
 
 Erst einmal Frohes Neues Jahr 2017!!! Mit guten Vorsätzen starten wir in das neue Jahr....
 Heute haben wir uns das erste Mal mit GitHub Pages auseinander gesetzt. Zuerst haben wir uns das Informationsvideo zu GitHub Pages angeschaut. Für Website machten wir Folgendes:
