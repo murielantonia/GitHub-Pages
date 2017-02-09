@@ -10,9 +10,9 @@ Wir erstellten zunächst ein neues Repository auf unserem Account murielantonia 
 
 ![Pages01](Pages01/Pages01.PNG"Erster Schriftzug")
 
-Mit Hilfe eines Online Tutorials haben wri begonnen, uns erste Befehle in HTML anzueignen. Beispielhaft fügten wir den ersten Paragraphen aus unserem Tic-Tac-Toe Galaxy Dokument ein. Wir nutzten auch das neu errungene Wissen, um passende Überschriften zu formulieren und formatieren.
+Mit Hilfe eines Online Tutorials haben wir begonnen, uns erste Befehle in HTML anzueignen. Beispielhaft fügten wir den ersten Paragraphen aus unserem Tic-Tac-Toe Galaxy Dokument ein. Wir nutzten auch das neu errungene Wissen, um passende Überschriften zu formulieren und formatieren.
 
-![Pages02](Bilder/    "Überschriften programmieren")
+![Pages02](Bilder/Pages02.PNG"Überschriften programmieren")
 So sieht unsere Website nach aktuellem Stand aus:
 
-![Pages03](Bilder/   "Erster Paragraph")
+![Pages03](Bilder/Pages03.PNG"Erster Paragraph")
