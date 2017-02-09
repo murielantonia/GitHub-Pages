@@ -39,7 +39,7 @@ Nun arbeiteten wir weiter an unserer Website. Dazu haben wir den Text aus dem Ti
 
 ![Pages08](bilder/Pages08.PNG "Fette Überschrift in Quellcode")
 
-![Pages10]8bilder/Pages10.PNG "Kursiver Text in Quellcode")
+![Pages10](bilder/Pages10.PNG "Kursiver Text in Quellcode")
 
 ![Pages09](bilder/Pages09.PNG "Übersicht auf Website")
 
