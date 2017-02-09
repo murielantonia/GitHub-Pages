@@ -3,28 +3,50 @@
 <head>
   <title>Tic-Tac-Toe Galaxy</title>
 </head>
-  
+
+<li><a href="#BmS">Bekannmachung mit Snap!</a></li>
+<li><a href="#I">Idee</a></li>
+<li><a href="#BaS">Beginn des Spiels</a></li>
+<li><a href="#ZdTTTF">Zeichnen des Tic-Tac-Toe Feldes</a></li>
+<li><a href="#BNuEdS"></a></li>
+<li><a href="#MdS">Idee</a></li>
+<li><a href="#ARuAdG">Idee</a></li>
+<li><a href="#ARuAeG">Idee</a></li>
+<li><a href="#PuHbP">Idee</a></li>
+<li><a href="#DvSuS">Idee</a></li>
+<li><a href="#C">Conclusion</a></li>
+ 
 <body style=background-color:#b3d9ff;>
 <h1>Hello World!</h1>
+
+
  
-<h2><b>Bekanntmachung mit Snap!</b></h2>
+<h2><b>
+<a id="BmS">Bekanntmachung mit Snap!</a>
+</b></h2>
  
 <p>Nachdem wir uns zu Hause einzeln über die unterschiedlichen Programme informiert hatten, besuchten wir gemeinsam die Homepages der für  uns interessanten Optionen: „Greenfoot“ und „The Beauty and Joy of Computing“ Wir suchten uns einige Tutorials zu „Greenfoot“ raus und starteten mit der „Wombats Welt“, um uns einen Überblick über die Anwendung zu verschaffen. Allerdings fanden wir keinen richtigen Zugang, hatten kein ausreichendes Grundwissen und waren skeptisch gegenüber der Bildungssoftware. Nach der Stunde waren wir uns noch unschlüssig, welche der beiden Anwendungen wir zum lernen nutzen wollten und nahmen uns ein „Greenfoot“ Buch mit nach Hause, um uns weiter damit auseinanderzusetzen. Schließlich entschieden wir uns für „Beauty and Joy of Computing“, da die bunten Farben der blockbasierten Programmierprache Snap! ansprechend und der Lehrplan (Curriculum) schüler- und studentenfreundlich organisiert war. Außerdem wir die Anwendung genutzt, an Schulen und Universitäten in hauptsächlich den USA. Somit gehören wir, als Schüler, zur Zielgruppe des Tutorials, was unsere Entscheidung zusätzlich beeinflusste. Überzeugt hat uns zudem das Argument des Programmtitels, welcher Schönheit und Freude des Programmierens verspricht.</p>
  
-<h2><b>Idee</b></h2>
+<h2><b>
+<a id="BmS">Idee</a>
+</b></h2>
  
 <p>Willkommen in der Tic-Tac-Toe Galaxy. Bei diesem Projekt handelt es sich, wie dessen Name und Titel bereits andeuten, um ein Tic-Tac-Toe Spiel. Dieses wurde mit der blockbasierten Programmiersprache „Snap!“ erstellt, mit der wir uns im Laufe des Halbjahres intensiv auseinandergesetzt haben. Zur Vorbereitung auf dieses erste eigene Projekt haben wir das Tutorial „The Beauty and Joy of Computing“ (University of California, Berkeley) durchgearbeitet, sind beim Programmieren jedoch hauptsächlich von dessen Vorschlägen abgewichen und unseren eigenen Weg gegangen, um einen maximalen Lerneffekt zu erzielen.</p>
  
 <p>Das Projekt ist in der Cloud von Snap! gespeichert. Solltet ihr das Spiel ausprobieren wollen, folgt  dem Link (http://snap.berkeley.edu/snapsource/snap.html) und loggt euch mit unseren Zugangsdaten in die Cloud ein (Benutzername: muritoni Passwort: d5j48n). Wählt im Projektverzeichnis „Tolles Projekt“ und klickt auf die grüne Fahne, um das Spiel zu beginnen. Natürlich könnt ihr euch  auch einen Überblick über Sprites und Skripte verschaffen, die wir im folgenden genauer erläutern werden.</p>
  
-<h2><b>Beginn des Spiels</b></h2>
+<h2><b>
+ <a id="BdS">Beginn des Spiels</a>
+</b></h2>
  
 <p>Um das Spiel zu starten, muss die grüne Fahne geklickt werden. Auf dem folgenden Bild seht ihr das Programm des ersten Sprites (Sprite5): Auf einem neutralen Hintergrund erscheint der Sprite in Gestalt eines Space-Shuttles. Er bewegt sich in die Mitte des Spielfeldes, wo er den Spieler dazu auffordert, ihn zu klicken, damit das Spiel beginnt.</p>
 (Bild)
  
 <p>Übersetzung: Sobald die grüne Fahne geklickt wurde, reagiert der „When Clicked“ –Block und startet das Programm. Diesem folgend befreit der Sprite den Hintergrund von Spielfeld und Markierungen aus vorherigen Runden („Clear“). Dann nimmt er Gestalt und Größe eines Space-Shuttles an, zeigt nach Oben (180) und erscheint („Show“) auf der Bildfläche. Seine Route startet bei den Koordinaten x: -200 und y: -100, anschließend bewegt er sich, innerhalb von drei Sekunden, in die Mitte des Spielfeldes. Dort sagt er vier Sekunden lang: „Willkommen in der Tic-Tac-Toe Galaxy! Klicke mich, um anzufangen!“. Es passiert zunächst nichts, bis der Klick des Spielers das nächste Programmteil auslöst. Nun fliegt die Rakete, innerhalb von drei Sekunden, zu einem Punkt außerhalb der Sichtweite der Spieler (x: 250 y: 250). Mithilfe des „Broadcast“-Blockes vermittelt der Sprite, nach Befolgung der übrigen Anweisungen, die Nachricht „Spiel gestartet!“. Diese Nachricht kann von weiteren Sprites empfangen werden und sie anweisen, ihr Programm zu starten.</p>
  
-<h2><b>Zeichnen des Tic-Tac-Toe Feldes (Spielfeldgitter)</b></h2>
+<h2><b>
+ <a id="ZdTTTF">Zeichnen des Tic-Tac-Toe Feldes (Spielfeldgitter)</a>
+</b></h2>
  
 <p>Nach Beginn des Spiels wird ein Spielfeld von Sprite1 aufgemalt. Dieses Gitter besteht aus drei Zeilen und drei Spalten und ist vielen als herkömmliches Tic-Tac-Toe Spielfeld bekannt.</p> 
 (Bild)
@@ -41,7 +63,9 @@ Auf den folgenden Bildern ist zu erkennen, wie der Block, der den Sprite dazu an
 <p>3.Im dritten Schritt werden mehrere Reihen, unter Einführung einer weiteren Variable („Number of Rows“), zu Spalten zusammengefügt. Da der Sprite zu einem universalen Starpunkt zurückkehren muss, um eine neue Reihe abzubrechen, sieht das Programm komplizierter aus, als es eigentlich ist. Der Sprite zeichnet eine Reihe von Spielfeldzellen, zeigt anschließend nach links und bewegt sich um die Länge der gesamten Reihe, also um Kantenlänge und Anzahl der Spielfeldzellen miteinander multipliziert. Anschließend zeigt er nach oben und macht eine Anzahl von Schritten, die der Kantenlänge der Felder entspricht. Dies ist der Punkt, von dem er beginnen kann, eine neue Reihe zu zeichnen. Nur bei der letzten Zeile braucht der Sprite nicht zum Startpunkt zurückkehren, da er keine neue Zeile anbrechen muss.</p>
 (Bild)
  
-<h2><b>Benennung, Nummerierung und Erkennung der Spielfeldzellen</b></h2>
+<h2><b>
+ <a id="BNuEdS">Benennung, Nummerierung und Erkennung der Spielfeldzellen</a>
+</b></h2>
  
 <p>In diesem Abschnitt der Dokumentation geht es darum, wie es dazu kommt, dass die Speilfeldmarkierungen von Sprite2 und Sprite3, den „Spielern“, in jeder Zelle und Farbe zentriert sind und eine vordefinierte Form annehmen, um eine Übersichtlichkeit des Spielfeldes zu gewährleisten.</p>
  
@@ -110,7 +134,7 @@ Wir haben uns, für unsere Tic-Tac-Toe Galaxy, dafür entschieden, die Markierun
  
 <p>Übersetzung: Der „Announce: Red wins!“-Block, der unter den Kategorien „Motion“ und „Command“ abgelegt ist, enthält ein Programm zur Ankündigung des Spielgewinners.  Dafür befreit der Sprite4 (Spielleiter) zunächst den Hintergrund von Spielfeldgitter und Markierungen („Clear“). Bevor er sich dem Spieler zeigt, begibt er sich zu den Koordinaten x: 0 und y: 0, zeigt in Richtung 90, also nach rechts, und wechselt sein Kostüm. Dabei kann es sich entweder um „Ufo gewinnt!“ oder „Astronaut gewinnt!“ handeln, die Größe des Sprites wird auf 75% + 10% = 85% festgelegt. Nun ist alles vorbereitet und der Sprite kann sich zeigen („Show“). Die Auf- und Abbewegung setzt sich aus drei Teilen zusammen. Zunächst bewegt sich der Sprite, innerhalb von 1.5 Sekunden, nach unten, also zu den Koordinaten x: 0 und y: -50. Anschließend bewegt sich der Sprite, innerhalb von 3 Sekunden, nach oben, also zu den Koordinaten x: 0 und y: 50. Zuletzt bewegt sich der Sprite, innerhalb von 1.5 Sekunden, zurück in die Mitte des Spielfeldes, also zu den Koordinaten x: 0 und y: 0. Nach der Bewegung macht der Sprite sich für den Spieler unsichtbar (“Hide“) und das Spiel kann, durch klicken der grünen Fahne, erneut begonnen werden.</p>
 
-<h2>Automatische Registrierung und Ankündigung eines Gleichstandes</h2>
+ <h2><b>Automatische Registrierung und Ankündigung eines Gleichstandes</b></h2>
  
 <p>Beim Tic-Tac-Toe spielen kann es natürlich auch passieren, dass es keinen Gewinner / Verlierer gibt, obwohl das Spielfeld schon voll von Markierungen ist. Auch diesen Fall haben wir in unserem Programm bedacht. Auf dem folgenden Screenshot ist das Skript dazu abgebildet:</p>
 (Bild)
@@ -122,7 +146,7 @@ Wir haben uns, für unsere Tic-Tac-Toe Galaxy, dafür entschieden, die Markierun
 
 <p>Durch Klicken der grünen Fahne kann das Spiel nun von neuem beginnen.</p>
  
-<h2>Probleme und Hindernisse beim Programmieren:</h2>
+ <h2><b>Probleme und Hindernisse beim Programmieren:</b></h2>
  
 <p>Durch unsere mangelnde Programmier-Erfahrung hat das Tic-Tac-Toe Spiel kleinere Fehler, zu deren Berichtigung es bisher noch nicht kam, aber in der Zukunft kommen wird.</p>
 
@@ -134,7 +158,7 @@ Wir haben uns, für unsere Tic-Tac-Toe Galaxy, dafür entschieden, die Markierun
  
 <p>Insgesamt haben wir vor, uns um die Fehler zu kümmern, um die Tic-Tac-Toe Erfahrungen der Spieler so einfach angenehm wie möglich zu gestalten. Jedoch handelt es sich bei diesem Projekt noch um einen Rohdiamanten, den wir, im Laufe des kommenden Halbjahres, schleifen und perfektionieren wollen. Wir hoffen, dass unsere Arbeit bisher trotzdem zu einem zufriedenstellenden Ergebnis geführt hat, für den, der die standardisierten Tic-Tac-Toe Regeln verstehen und anwenden kann.</p>
  
-<h2>Design von Stage und Sprites</h2>
+ <h2><b>Design von Stage und Sprites</b></h2>
  
 <p>Wir wählten als unseren Hintergrund eine Galaxie. Dort soll das Tic-Tac-Toe Spiel stattfinden.</p>
 (Bild)
@@ -162,7 +186,7 @@ Wir haben uns, für unsere Tic-Tac-Toe Galaxy, dafür entschieden, die Markierun
 <p>Gewinnt keiner der Spieler, so erscheint (passend zum Weltall) ein Alien, mit dem Schriftzug „Gleichstand“.</p>
 (Bild)
  
-<h2>Conclusion</h2>
+<h2><b>Conclusion</b></h2>
  
 <p><i>Wir sind sehr zufrieden mit dem Ergebnis unserer Arbeit. Wir haben es geschafft ein eigenes und bespielbares Tic-Tac-Toe Spiel zu erstellen. Wir haben uns ausführlích mit dem Programm Snap! befasst und dabei vieles neues gelernt. Nun sind wir einen Schritt weiter und freuen uns auf ein tolles neues Projekt!</i></p>
 
