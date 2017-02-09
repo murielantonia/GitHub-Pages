@@ -47,5 +47,10 @@ Um uns die Arbeit zu erleichtern, haben wir den Text der Tic-Tac-Toe Galaxy in e
 
 ![Pages06](bilder/Pages06.PNG "Arbeitsweise")
 
+Der Versuch ein Inhaltsverzeichnis zu erstellen ist leider gescheitert...
+
+![Pages12](bilder/Pages12.PNG "Das Scheitern (Damm, damm, damm)")
+
+
 
 
