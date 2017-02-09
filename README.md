@@ -31,10 +31,17 @@ Danach konnten wir auf unserem Desktop die Bilderordner mit drag-and-drop versch
 
 War dies vollbracht, mussten wir nur noch unser Werk synchronisieren, damit die Bilder im Dokument erscheinen konnten. 
 
-Nun arbeiteten wir weiter an unserer Website. Dazu haben wir den Text aus dem Tic-Tac-Toe Galaxy Projekt in die index.html File kopiert und in Paragraphen unterteilt. 
-(Bild)
+Nun arbeiteten wir weiter an unserer Website. Dazu haben wir den Text aus dem Tic-Tac-Toe Galaxy Projekt in die index.html File kopiert und in Paragraphen unterteilt.Die Überschriften haben wir in fett und die Zusammenfassung in kursiv geschrieben. Damit wir später wissen, an welche Stellen die Bilder eingefügt werden sollen, haben wir uns Notizen dazu gemacht.
 
-Die Überschriften haben wir in fett und die Zusammenfassung in kursiv geschrieben.
-(Bild)
+![Pages07](bilder/Pages07.PNG "Paragraphen im Quellcode")
+
+![Pages08](bilder/Pages08.PNG "Fette Überschrift in Quellcode")
+
+![Pages09](bilder/Pages09.PNG "Übersicht auf Website")
+
+Um uns die Arbeit zu erleichtern, haben wir den Text der Tic-Tac-Toe Galaxy in ein leeres Worddokument kopiert, damit wir gleichzeitig in zwei Fenstern arbeiten konnten.
+
+![Pages06](bilder/Pages06.PNG "Arbeitsweise")
+
 
 
