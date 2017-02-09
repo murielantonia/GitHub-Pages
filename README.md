@@ -17,3 +17,24 @@ Mit Hilfe eines Online Tutorials haben wir begonnen, uns erste Befehle in HTML a
 So sieht unsere Website nach aktuellem Stand aus:
 
 ![Pages03](bilder/Pages03.PNG "Erster Paragraph")
+
+##Fünfzehnte Informatikstunde<a name="fünfzehn"><a/>                                                                09.02.2017
+
+Heute haben wir erfolgreich GitHub Desktop heruntergeladen. Damit konnten wir vereinfacht den Bilderordner aus der Tic-Tac-Toe Galaxy in den GitHub-Pages Ordner übertragen.
+Zunächst mussten wir unsere Projekte in die Desktopversion clonen.
+
+![Pages05](bilder/Pages05.PNG "Github Desktop")
+
+Danach konnten wir auf unserem Desktop die Bilderordner mit drag-and-drop verschieben.
+
+![Pages04](bilder/Pages04.PNG "Verschieben der Bilder")
+
+War dies vollbracht, mussten wir nur noch unser Werk synchronisieren, damit die Bilder im Dokument erscheinen konnten. 
+
+Nun arbeiteten wir weiter an unserer Website. Dazu haben wir den Text aus dem Tic-Tac-Toe Galaxy Projekt in die index.html File kopiert und in Paragraphen unterteilt. 
+(Bild)
+
+Die Überschriften haben wir in fett und die Zusammenfassung in kursiv geschrieben.
+(Bild)
+
+
