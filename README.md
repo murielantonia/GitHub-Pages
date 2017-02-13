@@ -51,6 +51,13 @@ Der Versuch ein Inhaltsverzeichnis zu erstellen ist leider gescheitert...
 
 ![Pages12](bilder/Pages12.PNG "Das Scheitern (Damm, damm, damm)")
 
+##Sechzehnte Informatikstunde<a name="sechzehn"><a/>                                                          13.02.2017
+
+Das Inhaltsverzeichnis funktioniert doch! Man muss die Website nur aktualisieren und ihr einige Zeit geben....
+
+Im Folgenden machten wir uns daran, die Bilder auf unsere Website zu übertragen. Dazu benutzten wir einen bestimmten Quellcode in der index.html.
+
+
 
 
 
