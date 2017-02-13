@@ -60,7 +60,7 @@ Das Inhaltsverzeichnis funktioniert doch! Man muss die Website nur aktualisieren
 
 Im Folgenden machten wir uns daran, die Bilder auf unsere Website zu übertragen. Dazu benutzten wir einen bestimmten Quellcode in der index.html.
 
-![Pages14](bilder/Pages13.PNG "Quellcode für Bilder in inedx.html")
+![Pages14](bilder/Pages14.PNG "Quellcode für Bilder in inedx.html")
 
 
 
