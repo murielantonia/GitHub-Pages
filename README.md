@@ -62,5 +62,7 @@ Im Folgenden machten wir uns daran, die Bilder auf unsere Website zu übertragen
 
 ![Pages14](bilder/Pages14.PNG "Quellcode für Bilder in inedx.html")
 
+![Pages15](bilder/Pages15.PNG "Erste formatierte Bilder")
+
 
 
