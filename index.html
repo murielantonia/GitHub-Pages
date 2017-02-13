@@ -84,7 +84,9 @@ Hier sind alle Reporter aufgelistet, die prüfen, ob der Sprite in Reihe 1, 2, 3
 <p>Auf diesem Bild ist der Inhalt des Reporters „Which Tile?“ zu erkennen.</p>
 (Bild)
  
-<h2><b>Markierungen der Spieler (Sprite2 und Sprite3)</b></h2>
+<h2><b>
+ <a id="MdS">Markierungen der Spieler (Sprite2 und Sprite3)</a>
+</b></h2>
  
 <p>Nun zu den Markierungen, also den Färbungen der Spielfeldzellen in der Farbe, die dem Spieler entspricht, der den Zug gemacht hat: 
 Wir haben uns, für unsere Tic-Tac-Toe Galaxy, dafür entschieden, die Markierungen auf dem Spielfeld schlicht zu halten. Im Gegensatz zum originalen Tic-Tac-Toe haben diese eine quadratische Form, die sich für den Spieler nur in ihrer Farbe unterscheiden, Form und Größe sind für beide Sprites gleich. Dies ist nicht nur Geschmackssache, sondern hat auch einen praktischen Nutzen. Da die Grundstruktur beider Markierungen gleich ist, musste diese nur einmal überlegt, durchdacht und programmiert werden. Damit die Markierungen stets symmetrisch sind, beginnt der Sprite seine Zeichnung in der Mitte der Spielfeldzelle. Die Koordinaten dieser Mitte mussten für jede der neun Zellen definiert und mit dem oben genannten Reporter in Verbindung gebracht werden. Die Bilder stellen zwar den zweiten Schritt des Programmierens dar, die hier gewählte Chronologie ist für den Leser jedoch leichter zu verstehen und begreifen.</p>
@@ -101,7 +103,9 @@ Wir haben uns, für unsere Tic-Tac-Toe Galaxy, dafür entschieden, die Markierun
  
 <p>Nachdem die Sprites also die gewollte und gewünschte Spielfeldzelle markiert haben, senden sie zwei Broadcast-Nachrichten („Feld markieren: Blau!“ und „Spielende?“) und warten eine Sekunde, bevor sie zu ihrer ursprünglichen Position zurückkehren. Anschließend geben sie eine weitere Nachricht ab, jedoch nicht im Hintergrund des Geschehens, sondern für den Spieler sichtbar. Dieser soll dazu aufgefordert werden, die Maus weiterzugeben und mit dem nächsten Sprite eine Markierung auf dem Spielfeld zu machen. Das Ufo sagt nach einem vollendeten Spielzug: „Astronaut, du bist an der Reihe!“. Der Astronaut sagt nach einem vollendeten Spielzug: „Ufo, zeig, was du kannst!“</p>
  
-<h2><b>Automatische Registrierung und Ankündigung des Gewinners</b></h2>
+<h2><b>
+ <a id="ARuAdG">Automatische Registrierung und Ankündigung des Gewinners</a>
+</b></h2>
  
 <p>Bisher kann also ein Tic-Tac-Toe Feld von Sprite1 auf den Hintergrund (Stage) gezeichnet werden und Markierungen des Spielfelds, durch Sprite2 und Sprite3, können vorgenommen werden.  Nun soll es darum gehen, wie der Gewinn oder Verlust der Spieler automatisch erkannt werden kann, über einen vierten Sprite, den „Spielleiter“.</p>
  
@@ -134,7 +138,9 @@ Wir haben uns, für unsere Tic-Tac-Toe Galaxy, dafür entschieden, die Markierun
  
 <p>Übersetzung: Der „Announce: Red wins!“-Block, der unter den Kategorien „Motion“ und „Command“ abgelegt ist, enthält ein Programm zur Ankündigung des Spielgewinners.  Dafür befreit der Sprite4 (Spielleiter) zunächst den Hintergrund von Spielfeldgitter und Markierungen („Clear“). Bevor er sich dem Spieler zeigt, begibt er sich zu den Koordinaten x: 0 und y: 0, zeigt in Richtung 90, also nach rechts, und wechselt sein Kostüm. Dabei kann es sich entweder um „Ufo gewinnt!“ oder „Astronaut gewinnt!“ handeln, die Größe des Sprites wird auf 75% + 10% = 85% festgelegt. Nun ist alles vorbereitet und der Sprite kann sich zeigen („Show“). Die Auf- und Abbewegung setzt sich aus drei Teilen zusammen. Zunächst bewegt sich der Sprite, innerhalb von 1.5 Sekunden, nach unten, also zu den Koordinaten x: 0 und y: -50. Anschließend bewegt sich der Sprite, innerhalb von 3 Sekunden, nach oben, also zu den Koordinaten x: 0 und y: 50. Zuletzt bewegt sich der Sprite, innerhalb von 1.5 Sekunden, zurück in die Mitte des Spielfeldes, also zu den Koordinaten x: 0 und y: 0. Nach der Bewegung macht der Sprite sich für den Spieler unsichtbar (“Hide“) und das Spiel kann, durch klicken der grünen Fahne, erneut begonnen werden.</p>
 
- <h2><b>Automatische Registrierung und Ankündigung eines Gleichstandes</b></h2>
+ <h2><b>
+  <a id="ARuAeG">Automatische Registrierung und Ankündigung eines Gleichstandes</a>
+ </b></h2>
  
 <p>Beim Tic-Tac-Toe spielen kann es natürlich auch passieren, dass es keinen Gewinner / Verlierer gibt, obwohl das Spielfeld schon voll von Markierungen ist. Auch diesen Fall haben wir in unserem Programm bedacht. Auf dem folgenden Screenshot ist das Skript dazu abgebildet:</p>
 (Bild)
@@ -146,7 +152,9 @@ Wir haben uns, für unsere Tic-Tac-Toe Galaxy, dafür entschieden, die Markierun
 
 <p>Durch Klicken der grünen Fahne kann das Spiel nun von neuem beginnen.</p>
  
- <h2><b>Probleme und Hindernisse beim Programmieren:</b></h2>
+ <h2><b>
+  <a id="PuHbP">Probleme und Hindernisse beim Programmieren:</a>
+ </b></h2>
  
 <p>Durch unsere mangelnde Programmier-Erfahrung hat das Tic-Tac-Toe Spiel kleinere Fehler, zu deren Berichtigung es bisher noch nicht kam, aber in der Zukunft kommen wird.</p>
 
@@ -158,7 +166,9 @@ Wir haben uns, für unsere Tic-Tac-Toe Galaxy, dafür entschieden, die Markierun
  
 <p>Insgesamt haben wir vor, uns um die Fehler zu kümmern, um die Tic-Tac-Toe Erfahrungen der Spieler so einfach angenehm wie möglich zu gestalten. Jedoch handelt es sich bei diesem Projekt noch um einen Rohdiamanten, den wir, im Laufe des kommenden Halbjahres, schleifen und perfektionieren wollen. Wir hoffen, dass unsere Arbeit bisher trotzdem zu einem zufriedenstellenden Ergebnis geführt hat, für den, der die standardisierten Tic-Tac-Toe Regeln verstehen und anwenden kann.</p>
  
- <h2><b>Design von Stage und Sprites</b></h2>
+ <h2><b>
+  <a id="DvSuS">Design von Stage und Sprites</a>
+ </b></h2>
  
 <p>Wir wählten als unseren Hintergrund eine Galaxie. Dort soll das Tic-Tac-Toe Spiel stattfinden.</p>
 (Bild)
@@ -186,7 +196,9 @@ Wir haben uns, für unsere Tic-Tac-Toe Galaxy, dafür entschieden, die Markierun
 <p>Gewinnt keiner der Spieler, so erscheint (passend zum Weltall) ein Alien, mit dem Schriftzug „Gleichstand“.</p>
 (Bild)
  
-<h2><b>Conclusion</b></h2>
+<h2><b>
+ <a id="C">Conclusion</a>
+</b></h2>
  
 <p><i>Wir sind sehr zufrieden mit dem Ergebnis unserer Arbeit. Wir haben es geschafft ein eigenes und bespielbares Tic-Tac-Toe Spiel zu erstellen. Wir haben uns ausführlích mit dem Programm Snap! befasst und dabei vieles neues gelernt. Nun sind wir einen Schritt weiter und freuen uns auf ein tolles neues Projekt!</i></p>
 
