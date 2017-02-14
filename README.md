@@ -66,5 +66,21 @@ Wir haben schon angefangen die Bilder richtig zu formatieren. Hier sieht man ein
 
 ![Pages15](bilder/Pages15.PNG "Erste formatierte Bilder")
 
+##Sechzehnte Informatikstunde<a name="sechzehn"></a>                                                                    14.02.2017
+
+< h2 style="color:FF00CC;">Valentinstag-Special</h2>
+
+Da heute Valentinstag ist, haben wir passend zum Thema alle Überschriften pink gefärbt.
+
+![Pages17](bilder/Pages17.PNG "Pinke Überschriften auf Website")
+
+Wir stellten fest, dass es für die Überschriften nicht nötig ist, den Text fett zu formatieren.
+
+![Pages18](bilder/Pages18.PNG "Quellcode für pinke Überschriften")
+
+
+
+
+
 
 
