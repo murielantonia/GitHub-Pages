@@ -54,13 +54,15 @@ Der Versuch ein Inhaltsverzeichnis zu erstellen ist leider gescheitert...
 
 ##Zusätzliche Informatikstunde<a name="zusatz"><a/>                                                                   13.02.2017
 
-Das Inhaltsverzeichnis funktioniert doch! Man muss die Website nur aktualisieren und ihr einige Zeit geben....
+Das Inhaltsverzeichnis funktioniert doch! Man muss die Website nur aktualisieren und ihr einige Zeit geben....Es sind noch einige Fehler drin, die jetzt behoben werden!
 
 ![Pages13](bilder/Pages13.PNG "Inhaltsverzeichnis klappt!")
 
 Im Folgenden machten wir uns daran, die Bilder auf unsere Website zu übertragen. Dazu benutzten wir einen bestimmten Quellcode in der index.html.
 
 ![Pages14](bilder/Pages14.PNG "Quellcode für Bilder in inedx.html")
+
+Wir haben schon angefangen die Bilder richtig zu formatieren. Hier sieht man ein Beispiel:
 
 ![Pages15](bilder/Pages15.PNG "Erste formatierte Bilder")
 
