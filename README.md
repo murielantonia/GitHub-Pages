@@ -98,7 +98,7 @@ Heute erstellten wir zunächst eine kleine "Werbung" für unseren GitHub Account
 Zunächst wir der Paragraph (p) geöffnet. Danach wird "mark" geöffnet. Alles was zwischen diesem Tag (und seiner Schließung) ist, wird markiert. Wir wählten die Farbe Pink (background-colour:FF00CC;). In unserem Text unterlegten wir "unsere GitHub Seite" italic (i) und "weitere tolle Projekte" fett (b). Wir fügten außerdem einen äußeren Link zu unserem GitHub Account ein. Anschließend wird "mark" geschlossen, womit alles markiert wird und schließlich auch der Paragraph (p).
 
 Danach machten wir uns weiter daran, die bilder so zu formatieren, dass sie auf unsere Website nicht verzerrt sind. Hierbei gilt ausprobieren! Das heißt wir ändern die Länge oder Höhe (von 420 x 420) um, klicken "commit changes", aktualisieren GitHub und aktualisieren unsere Website. Dann hoffen wir, dass die Größe nun passt, denn sonst muss der beschriebene Ablauf noch einmal durhgeführt werden. Dies wiederholen wir für jedes Bild (außer denen, die mit 420 x 420 schon ein gutes Format haben).
-
+ Da dies, nach einer mühseligen Doppelstunde, noch nicht für alle Bilder geklappt hat, hat Stefan un snoch einen tipp gegeben: Wir können die Maße auch auf dem Desktop für jedes Bild ablesen. Zu Hause werden wir uns also noch einmal mit der Formatierung befassen!
 
 
 
