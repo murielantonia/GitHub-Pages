@@ -41,7 +41,7 @@
  
 <p>Um das Spiel zu starten, muss die grüne Fahne geklickt werden. Auf dem folgenden Bild seht ihr das Programm des ersten Sprites (Sprite5): Auf einem neutralen Hintergrund erscheint der Sprite in Gestalt eines Space-Shuttles. Er bewegt sich in die Mitte des Spielfeldes, wo er den Spieler dazu auffordert, ihn zu klicken, damit das Spiel beginnt.</p>
 
- <p><img src="bilder/Bild01.png" alt="Bild1" style="width:500px;height:420px;border:0;"></p>
+ <p><img src="bilder/Bild01.png" alt="Bild1" style="width:520px;height:440px;border:0;"></p>
  
 <p>Übersetzung: Sobald die grüne Fahne geklickt wurde, reagiert der „When Clicked“ –Block und startet das Programm. Diesem folgend befreit der Sprite den Hintergrund von Spielfeld und Markierungen aus vorherigen Runden („Clear“). Dann nimmt er Gestalt und Größe eines Space-Shuttles an, zeigt nach Oben (180) und erscheint („Show“) auf der Bildfläche. Seine Route startet bei den Koordinaten x: -200 und y: -100, anschließend bewegt er sich, innerhalb von drei Sekunden, in die Mitte des Spielfeldes. Dort sagt er vier Sekunden lang: „Willkommen in der Tic-Tac-Toe Galaxy! Klicke mich, um anzufangen!“. Es passiert zunächst nichts, bis der Klick des Spielers das nächste Programmteil auslöst. Nun fliegt die Rakete, innerhalb von drei Sekunden, zu einem Punkt außerhalb der Sichtweite der Spieler (x: 250 y: 250). Mithilfe des „Broadcast“-Blockes vermittelt der Sprite, nach Befolgung der übrigen Anweisungen, die Nachricht „Spiel gestartet!“. Diese Nachricht kann von weiteren Sprites empfangen werden und sie anweisen, ihr Programm zu starten.</p>
  
@@ -58,15 +58,15 @@ Auf den folgenden Bildern ist zu erkennen, wie der Block, der den Sprite dazu an
  
 <p>1.Zunächst haben wir den Block „Make Tile of Size ...“ erstellt, mithilfe unseres Vorwissens aus den Tutorials. Damit die Größe der Spielfeldzellen auch nachträglich angepasst werden kann, haben wir die Kantenlänge nicht definiert, sondern eine Variable eingefügt. Diese nennt sich „Tile Size“ und beschreibt die Anzahl von Schritten, die der Sprite sich bewegt, bevor er sich um 90° nach rechts dreht und damit eine Ecke bildet. Zudem ist für unser weiteres Vorgehen wichtig, dass die Bewegung an der Stelle aufhört, an der sie angefangen hat, weshalb eine der vier Kanten doppelt gezeichnet wird. Das ist nicht für das Zeichnen einzelner Spielfeldzellen, sondern für das Zeichnen einer Reihe von Spielfeldzellen relevant.</p>
 
-<p><img src="bilder/Bild03.png" alt="Bild3" style="width:420px;height:420px;border:0;"></p>
+<p><img src="bilder/Bild03.png" alt="Bild3" style="width:420px;height:480px;border:0;"></p>
  
 <p>2.Wie bereits angedeutet, werden im nächsten Schritt mehrere Spielfeldzellen zu einer Reihe zusammengefügt, dessen Länge von der Variable „Number of Tiles“ definiert wird. Dabei kann der Vorgang, ein Quadrat von gleichem Start- und Endpunkt zu zeichnen, beliebig oft wiederholt werden, im Falle von Tic-Tac-Toe genau dreimal.</p>
  
-<p><img src="bilder/Bild04.png" alt="Bild4" style="width:420px;height:420px;border:0;"></p>
+<p><img src="bilder/Bild04.png" alt="Bild4" style="width:420px;height:600px;border:0;"></p>
  
 <p>3.Im dritten Schritt werden mehrere Reihen, unter Einführung einer weiteren Variable („Number of Rows“), zu Spalten zusammengefügt. Da der Sprite zu einem universalen Starpunkt zurückkehren muss, um eine neue Reihe abzubrechen, sieht das Programm komplizierter aus, als es eigentlich ist. Der Sprite zeichnet eine Reihe von Spielfeldzellen, zeigt anschließend nach links und bewegt sich um die Länge der gesamten Reihe, also um Kantenlänge und Anzahl der Spielfeldzellen miteinander multipliziert. Anschließend zeigt er nach oben und macht eine Anzahl von Schritten, die der Kantenlänge der Felder entspricht. Dies ist der Punkt, von dem er beginnen kann, eine neue Reihe zu zeichnen. Nur bei der letzten Zeile braucht der Sprite nicht zum Startpunkt zurückkehren, da er keine neue Zeile anbrechen muss.</p>
 
-<p><img src="bilder/Bild05.png" alt="Bild5" style="width:420px;height:420px;border:0;"></p>
+<p><img src="bilder/Bild05.png" alt="Bild5" style="width:420px;height:550px;border:0;"></p>
  
 <h2 style="color:FF00CC;">
  <a id="BNuEdS">Benennung, Nummerierung und Erkennung der Spielfeldzellen</a>
@@ -77,21 +77,21 @@ Auf den folgenden Bildern ist zu erkennen, wie der Block, der den Sprite dazu an
 <p>Wichtig dabei ist vor allem der Reporter „Which Tile?“, der die aktuelle Position des Sprites auf dem Spielfeld prüfen kann, um Informationen über die genaue Zelle, in der der Sprite sich befindet, herauszugeben. Bevor wir mit dem Bau dieses individuellen Blockes beginnen konnten, mussten wir zunächst die Anzahl der Felder, die Breite der Spalten und Zeilen und den Mittelpunkt des Spielfeldes bestimmen, damit kein Interpretationsspielraum bleibt. Da es sich um ein Tic-Tac-Toe Spiel handelt, entschieden wir uns für neun Felder, also drei Spalten und drei Zeilen. Aus Gründen der Einfachheit kürten wir die Koordinaten x: 0 und y: 0 zur Mitte des Spielfeldes, dementsprechend mussten die Zeilen eine Höhe und die Spalten eine Breite von je 100 haben, damit das gesamte Spielfeld auf dem Hintergrund Platz finden konnte. So konnten wir jeder der Spielfeldachsen, also der Linien, die die Ränder und Zwischenräume des Spielfeldes definieren, Koordinaten zuteilen. Bevor wir jedoch einen Block zusammensetzen konnten, der direkt die Nummer der Spielfeldzelle verrät, mussten wir zunächst Blöcke erstellen, die die Position des Sprites auf die X-Koordinaten jeder Spalte und auf die Y-Koordinaten jeder Zeile prüfen und  darüber Auskunft geben, in Form einer booleschen Variable gibt.
 Hier sind alle Reporter aufgelistet, die prüfen, ob der Sprite in Reihe 1, 2, 3 oder in Spalte 1, 2, 3 liegt.</p>
  
-<p><img src="bilder/Bild06.png" alt="Bild6" style="width:420px;height:420px;border:0;"></p>
+<p><img src="bilder/Bild06.png" alt="Bild6" style="width:500px;height:420px;border:0;"></p>
  
 <p>Beispiel Spalte: Damit die Bedingung, der Sprite befände sich in der ersten Spalte, der Wahrheit entspricht, muss dessen X-Koordinate einen Wert zwischen -150 und -50 annehmen. Eine Spalte ist nämlich 100 Schritte breit, das Zentrum des Spielfeldes befindet sich bei x: 0 und y: 0.</p>
 
-<p><img src="bilder/Bild07.png" alt="Bild7" style="width:420px;height:420px;border:0;"></p>
+<p><img src="bilder/Bild07.png" alt="Bild7" style="width:420px;height:600px;border:0;"></p>
  
 <p>Beispiel Zeile: Damit die Bedingung, der Sprite befände sich in der ersten Zeile, der Wahrheit entspricht, muss dessen Y-Koordinate einen Wert zwischen 150 und 50 annehmen. Eine Zeile ist nämlich 100 Schritte hoch, das Zentrum des Spielfeldes befindet sich bei x: 0 und y: 0.</p>
  
-<p><img src="bilder/Bild08.png" alt="Bild8" style="width:420px;height:420px;border:0;"></p>
+<p><img src="bilder/Bild08.png" alt="Bild8" style="width:420px;height:600px;border:0;"></p>
  
 <p>Im nächsten Schritt, der Erstellung des „Which Tile?“-Reporters, werden die Kriterien von Zeile und Spalte miteinander in Verbindung gebracht, um Aufschluss über die genaue Zelle zu erhalten, in der der Sprite sich aktuell befindet. Die Spielfeldzellen sind, in Leserichtung, von eins bis neun nummeriert, was das Erkennungssystem erheblich vereinfacht. Wenn also die Bedingungen für Zeile eins und Spalte eins beide wahr sind, befindet sich der Sprite in Zelle 1. Wenn die Bedingungen für Zeile eins und Spalte zwei wahr sind, befindet sich der Sprite in Zelle 2. Nach diesem Muster kann man jeder Zelle eine Spalte und eine Zeile zuordnen. So ist jede Position des Sprites in einer der neun Spielfeldzellen abhängig von der Nummer der Zeile und der Nummer der Spalte, also von seinen Koordinaten, deren Verständnis wir in mehreren Schritten erheblich erleichtert haben.</p>
  
 <p>Auf diesem Bild ist der Inhalt des Reporters „Which Tile?“ zu erkennen.</p>
 
-<p><img src="bilder/Bild09.png" alt="Bild9" style="width:420px;height:420px;border:0;"></p>
+<p><img src="bilder/Bild09.png" alt="Bild9" style="width:420px;height:500px;border:0;"></p>
  
 <h2 style="color:FF00CC;">
  <a id="MdS">Markierungen der Spieler (Sprite2 und Sprite3)</a>
@@ -100,15 +100,15 @@ Hier sind alle Reporter aufgelistet, die prüfen, ob der Sprite in Reihe 1, 2, 3
 <p>Nun zu den Markierungen, also den Färbungen der Spielfeldzellen in der Farbe, die dem Spieler entspricht, der den Zug gemacht hat: 
 Wir haben uns, für unsere Tic-Tac-Toe Galaxy, dafür entschieden, die Markierungen auf dem Spielfeld schlicht zu halten. Im Gegensatz zum originalen Tic-Tac-Toe haben diese eine quadratische Form, die sich für den Spieler nur in ihrer Farbe unterscheiden, Form und Größe sind für beide Sprites gleich. Dies ist nicht nur Geschmackssache, sondern hat auch einen praktischen Nutzen. Da die Grundstruktur beider Markierungen gleich ist, musste diese nur einmal überlegt, durchdacht und programmiert werden. Damit die Markierungen stets symmetrisch sind, beginnt der Sprite seine Zeichnung in der Mitte der Spielfeldzelle. Die Koordinaten dieser Mitte mussten für jede der neun Zellen definiert und mit dem oben genannten Reporter in Verbindung gebracht werden. Die Bilder stellen zwar den zweiten Schritt des Programmierens dar, die hier gewählte Chronologie ist für den Leser jedoch leichter zu verstehen und begreifen.</p>
 
-<p><img src="bilder/Bild10.png" alt="Bild10" style="width:420px;height:420px;border:0;"></p>
+<p><img src="bilder/Bild10.png" alt="Bild10" style="width:500px;height:420px;border:0;"></p>
 
-<p><img src="bilder/Bild11.png" alt="Bild11" style="width:420px;height:420px;border:0;"></p>
+<p><img src="bilder/Bild11.png" alt="Bild11" style="width:500px;height:420px;border:0;"></p>
  
 <p>Von der Mitte der jeweiligen Spielfeldzelle aus beginnend, nimmt der Sprite nun wieder die Rolle des „Stiftes“ ein, der eine Linie von definierter Breite und Farbe hinter sich zieht, sobald er sich über die Stage bewegt. Doch bevor der Sprite mit dem Zeichnen beginnt, begibt er sich in eine Ecke der Zelle, was Symmetrie garantiert und das Programmieren erleichtert. Von dieser Ecke ausgehend, zeichnet der Sprite also ein Quadrat der Kantenlänge 70. Anschließend füllt er das Quadrat aus, mithilfe einer Hin- und Herbewegung, die siebenfach wiederholt und mit jeder Wiederholung fünf Schritte nach oben versetzt wird. Diese fünf Schritte sind an die Stiftbreite angepasst und wechseln sich mit den siebzig Schritten ab, die es braucht, um eine „Bahn“ zu ziehen. Auf den unteren Bildern sind die individuell erstellten Blöcke zu sehen, die die Markierungen der beiden Spieler, Sprite2 und Sprite3, definieren. Zum Verständnis: Bevor wir das Programm endgültig designt haben, hatten die Sprites noch rote und blaue Markierungen und selbst die entsprechende Farbe. „Rot“ entspricht nun der gelben Markierung des Ufos, „Blau“ entspricht der grauen Markierung des Astronauten.</p>
 
-<p><img src="bilder/Bild12.png" alt="Bild12" style="width:420px;height:420px;border:0;"></p>
+<p><img src="bilder/Bild12.png" alt="Bild12" style="width:600px;height:420px;border:0;"></p>
 
-<p><img src="bilder/Bild13.png" alt="Bild13" style="width:420px;height:420px;border:0;"></p>
+<p><img src="bilder/Bild13.png" alt="Bild13" style="width:600px;height:420px;border:0;"></p>
  
 <p>Im Verlauf des Spiels haben beide Spieler die Möglichkeit, die Sprites auf eine der Spielfeldzellen zu ziehen, und sie dort abzusetzen, um eine Markierung vorzunehmen. Dazu werden die eben erklärten und erstellten Blöcke genutzt, die ein bestimmtes Feld in einer bestimmten Farbe markieren können.</p>
 
@@ -126,17 +126,17 @@ Wir haben uns, für unsere Tic-Tac-Toe Galaxy, dafür entschieden, die Markierun
  
 <p>Dazu werden insgesamt 18 Variablen eingeführt, die einem Feld und einer Farbe zugeteilt werden, und den booleschen Wert „True“ annehmen, sobald auf genau ihrem Feld eine Markierung von genau ihrer Farbe vorgenommen wird.</p>
 
-<p><img src="bilder/Bild16.png" alt="Bild16" style="width:420px;height:420px;border:0;"></p>
+<p><img src="bilder/Bild16.png" alt="Bild16" style="width:420px;height:600px;border:0;"></p>
  
 <p>Am Anfang des Spiels, noch bevor Sprite2 und Sprite3 für den Spieler zu sehen sind, setzen sie die Variablen ihrer jeweiligen Farbe zurück, auf den booleschen Wert „False“. Sprite2, also das Ufo, setzt die ihm zugehörigen Variablen Rot1 - Rot9 zurück. Sprite3, also der Astronaut, setzt die ihm zugehörigen Variablen Blau1 - Blau9 zurück. Dies geschieht, nachdem sie die Broadcast-Nachricht „Spielfeld vorbereitet!“ von Sprite1, in Gestalt eines Saturns, erhalten haben. Der zugehörige Programmteil ist auf diesen Bildern zu erkennen:</p>
 
-<p><img src="bilder/Bild17.png" alt="Bild17" style="width:420px;height:420px;border:0;"></p>
+<p><img src="bilder/Bild17.png" alt="Bild17" style="width:420px;height:500px;border:0;"></p>
 
-<p><img src="bilder/Bild18.png" alt="Bild18" style="width:420px;height:420px;border:0;"></p>
+<p><img src="bilder/Bild18.png" alt="Bild18" style="width:420px;height:500px;border:0;"></p>
  
 <p>Sobald jedoch eine der Spielfeldzellen in einer der Farben gefärbt wurde, muss die dazugehörige Variable den Wert „True“ annehmen. Erinnerung: Nach der Markierung des Feldes sendet Sprite2 die Broadcast-Nachricht „Feld markieren: Rot“, Sprite3 sendet die Broadcast-Nachricht „Feld markieren: Blau!“ Sie empfangen diese Nachrichten selbst, anstatt sie an den jeweils anderen weiterzugeben. Auf den folgenden Screenshots ist das Programm abgebildet, welches von diesen Broadcasts ausgelöst wird.</p>
 
-<p><img src="bilder/Bild19.png" alt="Bild19" style="width:420px;height:420px;border:0;"></p>
+<p><img src="bilder/Bild19.png" alt="Bild19" style="width:420px;height:500px;border:0;"></p>
  
 <p>Übersetzung: Der Reporter „Which Tile?“ wird in insgesamt neun If-Bedingungen den Nummern der Spielfeldzellen gleichgesetzt. Wenn also, beispielsweise, der Sprite sich aktuell in Zelle1 befindet, da er nach der Markierung eine Sekunde wartet, wird die Variable Rot1 (Sprite2) oder Blau1 (Sprite3) richtig gestellt. Anschließend, wird, über eine Broadcast-Nachricht,  dem Spielleiter (Sprite4) mitgeteilt, den Spielstand zu prüfen.</p>
 
@@ -146,7 +146,7 @@ Wir haben uns, für unsere Tic-Tac-Toe Galaxy, dafür entschieden, die Markierun
  
 <p>Es gibt insgesamt sieben Kombinationen von Feldern, mit denen man das Spiel gewinnen kann, dazu gehören drei Zeilen, drei Spalten und zwei Diagonalen. Im Skript des Spielleiters ist ein „Prüfprogramm“ für jeden Spieler niedergeschrieben. Diese setzen sich aus mehreren If-Bedingungen zusammen, in denen gecheckt wird, ob die drei Spielfeldvariablen, die es braucht, um das Spiel zu gewinnen, dem booleschen Wert „True“ entsprechen. Wenn das Ufo (Rot) also Spielfeldzellen eins, zwei und drei in seiner Farbe markiert hat und dies im Variablenverzeichnis markiert ist, müssen die Variablen Rot1, Rot2 und Rot3 zwangsläufig der Wahrheit entsprechen. Der Spielleiter registriert und annonciert den Gewinner, nachdem er die Broadcast-Nachricht „Gewinner steht fest!“ abgegeben hat. Die dazugehörigen Skripte sind auf den folgenden Screenshots zu erkennen.</p>
 
-<p><img src="bilder/Bild20.png" alt="Bild20" style="width:420px;height:420px;border:0;"></p>
+<p><img src="bilder/Bild20.png" alt="Bild20" style="width:420px;height:480px;border:0;"></p>
 
 <p><img src="bilder/Bild21.png" alt="Bild21" style="width:420px;height:420px;border:0;"></p>
  
@@ -174,7 +174,7 @@ Wir haben uns, für unsere Tic-Tac-Toe Galaxy, dafür entschieden, die Markierun
  
 <p>Dieses prüft, mit Hilfe des Variablenverzeichnisses, ob alle Spielfeldzellen bereits markiert sind, in einer der zwei Farben. Wenn also Rot1 oder Blau1, Rot2 oder Blau2, ... und Rot9 oder Blau9 „True“ sind, ohne das zuvor ein Gewinner festgestellt wurde, wird das Spiel trotzdem beendet. Dabei ist das „Und“ in der If-Bedingung von hoher Relevanz. Nun nimmt der Spielleiter die Gestalt eines Aliens, von festgelegter Größe (75%), an, begibt sich in die Mitte des Spielfeldes, sagt „Das habt ihr beide gleichermaßen versiebt! Gratulation“, wartet fünf Sekunden und versteckt sich anschließend. Das Programm dazu ist analog zu dem Block „Announce: Red / Blue wins!“ und relativ selbsterklärend:</p>
 
-<p><img src="bilder/Bild26.png" alt="Bild26" style="width:420px;height:420px;border:0;"></p>
+<p><img src="bilder/Bild26.png" alt="Bild26" style="width:500px;height:500px;border:0;"></p>
  
 <p>Durch Klicken der grünen Fahne kann das Spiel nun von neuem beginnen.</p>
  
@@ -186,7 +186,7 @@ Wir haben uns, für unsere Tic-Tac-Toe Galaxy, dafür entschieden, die Markierun
 
 <p>Der erste Fehler ist die Tatsache, dass die Reihenfolge der Spielzüge nicht im Programm vermerkt ist. Das bedeutet konkret, das man mehrmals hintereinander den gleichen Sprite auf das Spielfeld ziehen kann, ohne das der jeweils andere zwischendurch zum Zuge kommt. Wir haben versucht, dass durch Sprechblasen auszubügeln, die nach einem Zug den anderen Spieler auffordern, seinen eigenen Sprite auf das Spielfeld zu ziehen, diese Sprechblasen sind jedoch nicht verbindlich und können leicht umgangen werden. Zudem machen wir uns hier das Allgemeinwissen der Spieler zu nutze. Jeder weiß, wie Tic-Tac-Toe funktioniert oder funktionieren soll.</p>
 
-<p><img src="bilder/Bild27.png" alt="Bild27" style="width:420px;height:420px;border:0;"></p>
+<p><img src="bilder/Bild27.png" alt="Bild27" style="width:460px;height:420px;border:0;"></p>
 
 <p><img src="bilder/Bild28.png" alt="Bild28" style="width:600px;height:420px;border:0;"></p>
  
@@ -206,15 +206,15 @@ Wir haben uns, für unsere Tic-Tac-Toe Galaxy, dafür entschieden, die Markierun
  
 <p>Für den zweiten Sprite, welcher das Tic-Tac-Toe Spielfeld zeichnet, nahmen wir einen Saturn.</p>
 
-<p><img src="bilder/Bild30.png" alt="Bild30" style="width:600px;height:420px;border:0;"></p>
+<p><img src="bilder/Bild30.png" alt="Bild30" style="width:650px;height:420px;border:0;"></p>
  
 <p>Passend zu der Galaxie, ist Spieler eins (Sprite3) ein Ufo.</p>
 
-<p><img src="bilder/Bild31.png" alt="Bild31" style="width:600px;height:420px;border:0;"></p>
+<p><img src="bilder/Bild31.png" alt="Bild31" style="width:650px;height:420px;border:0;"></p>
  
 <p>Spieler zwei (Sprite4) ist ein Astronaut.</p>
 
-<p><img src="bilder/Bild32.png" alt="Bild32" style="width:600px;height:420px;border:0;"></p>
+<p><img src="bilder/Bild32.png" alt="Bild32" style="width:650px;height:420px;border:0;"></p>
 
 <p>Gewinnen kann Spieler eins oder Spieler zwei…</p>
 
