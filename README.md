@@ -88,7 +88,7 @@ Jetzt habe wir erfolgreich unsere "Über-Überschrift Hello World!" nicht nur ge
 
 ##Siebzehnte Informatikstunde<a name="siebzehn"></a>                                                                  16.02.2017
 
-Heute machen wir uns weiter daran, die bilder so zu formatieren, dass sie auf unsere Website nicht verzerrt sind.Hierbei gilt ausprobieren! Das heißt wir wir ändern die Länge oder Höhe (von 420 x 420) um, klicken "commit changes", aktualisieren GitHub und aktualisieren unsere Website. Dann hoffen wir, dass die Größe nun passt, denn sonst muss der beschriebene Ablauf noch einmal durhgeführt werden. Dies wiederholen wir für jedes Bild (außer denen, die mit 420 x 420 schon ein gutes format haben).
+Heute machen wir uns weiter daran, die bilder so zu formatieren, dass sie auf unsere Website nicht verzerrt sind. Hierbei gilt ausprobieren! Das heißt wir ändern die Länge oder Höhe (von 420 x 420) um, klicken "commit changes", aktualisieren GitHub und aktualisieren unsere Website. Dann hoffen wir, dass die Größe nun passt, denn sonst muss der beschriebene Ablauf noch einmal durhgeführt werden. Dies wiederholen wir für jedes Bild (außer denen, die mit 420 x 420 schon ein gutes Format haben).
 
 
 
