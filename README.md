@@ -92,7 +92,7 @@ Heute erstellten wir zunächst eine kleine "Werbung" für unseren GitHub Account
 
 ![Pages](bilder/Pages21.PNG "Werbung")
 
-![Pages](bilder/Pages22.PNG "Quellcode für unsere Werbung")
+![Pages](bilder/Pages23.PNG "Quellcode für unsere Werbung")
 
 Übersetzung:Wir nutzten viele verschiedene Specials.
 Zunächst wir der Paragraph (p) geöffnet. Danach wird "mark" geöffnet. Alles was zwischen diesem Tag (und seiner Schließung) ist, wird markiert. Wir wählten die Farbe Pink (background-colour:FF00CC;). In unserem Text unterlegten wir "unsere GitHub Seite" italic (i) und "weitere tolle Projekte" fett (b). Wir fügten außerdem einen äußeren Link zu unserem GitHub Account ein. Anschließend wird "mark" geschlossen, womit alles markiert wird und schließlich auch der Paragraph (p).
