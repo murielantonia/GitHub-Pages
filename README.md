@@ -9,6 +9,8 @@
 
 [Siebzehnte Informatikstunde](#siebzehn)
 
+[Zusätzliche Informatikstunde](#zusätzlich)
+
 ##Vierzehnte Informatikstunde<a name="vierzehn"><a/>                                                               26.01.2017
 
 Frohes Neues Jahr 2017!!! Mit guten Vorsätzen starten wir in das neue Jahr!
@@ -102,7 +104,11 @@ Danach machten wir uns weiter daran, die bilder so zu formatieren, dass sie auf 
 Da dies, nach einer mühseligen Doppelstunde, noch nicht für alle Bilder geklappt hat, hat Stefan un snoch einen tipp gegeben: Wir können die Maße auch auf dem Desktop für jedes Bild ablesen. Zu Hause werden wir uns also noch einmal mit der Formatierung befassen!
 
 
+##Zusätzliche Informatikstunde<a name="zusätzlich"></a>                                                           17.02.2017
 
+Nachdem wir alle Bilder aus unserem "bilder" Ordner von unserem GitHub-Pages Projekt auf das Dektop heruntergeladen haben, konnten wir die Eigenschaften jedes einzelnen Bildes öffnen. Ganz oben konnten wir nun die richtigen Maße ablesen. Diese wurden dann in die Angaben im index Quellcode übertragen.
+
+![Pages](bilder/Pages21.PNG "Arbeitsübersicht")
 
 
 
