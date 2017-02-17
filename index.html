@@ -41,7 +41,7 @@
  
 <p>Um das Spiel zu starten, muss die grüne Fahne geklickt werden. Auf dem folgenden Bild seht ihr das Programm des ersten Sprites (Sprite5): Auf einem neutralen Hintergrund erscheint der Sprite in Gestalt eines Space-Shuttles. Er bewegt sich in die Mitte des Spielfeldes, wo er den Spieler dazu auffordert, ihn zu klicken, damit das Spiel beginnt.</p>
 
- <p><img src="bilder/Bild01.png" alt="Bild1" style="width:520px;height:440px;border:0;"></p>
+ <p><img src="bilder/Bild01.png" alt="Bild1" style="width:698px;height:348px;border:0;"></p>
  
 <p>Übersetzung: Sobald die grüne Fahne geklickt wurde, reagiert der „When Clicked“ –Block und startet das Programm. Diesem folgend befreit der Sprite den Hintergrund von Spielfeld und Markierungen aus vorherigen Runden („Clear“). Dann nimmt er Gestalt und Größe eines Space-Shuttles an, zeigt nach Oben (180) und erscheint („Show“) auf der Bildfläche. Seine Route startet bei den Koordinaten x: -200 und y: -100, anschließend bewegt er sich, innerhalb von drei Sekunden, in die Mitte des Spielfeldes. Dort sagt er vier Sekunden lang: „Willkommen in der Tic-Tac-Toe Galaxy! Klicke mich, um anzufangen!“. Es passiert zunächst nichts, bis der Klick des Spielers das nächste Programmteil auslöst. Nun fliegt die Rakete, innerhalb von drei Sekunden, zu einem Punkt außerhalb der Sichtweite der Spieler (x: 250 y: 250). Mithilfe des „Broadcast“-Blockes vermittelt der Sprite, nach Befolgung der übrigen Anweisungen, die Nachricht „Spiel gestartet!“. Diese Nachricht kann von weiteren Sprites empfangen werden und sie anweisen, ihr Programm zu starten.</p>
  
@@ -51,22 +51,22 @@
  
 <p>Nach Beginn des Spiels wird ein Spielfeld von Sprite1 aufgemalt. Dieses Gitter besteht aus drei Zeilen und drei Spalten und ist vielen als herkömmliches Tic-Tac-Toe Spielfeld bekannt.</p> 
 
-<p><img src="bilder/Bild02.png" alt="Bild2" style="width:500px;height:420px;border:0;"></p>
+<p><img src="bilder/Bild02.png" alt="Bild2" style="width:482px;height:476x;border:0;"></p>
  
 <p>Übersetzung: Nachdem Sprite1 die Broadcast-Nachricht „Spiel gestartet!“ von Sprite5 erhalten hat, zeigt er sich. Er hat ein Saturn-Kostüm an! In diesem Programmteil nimmt der Sprite die Funktion eines Stiftes an, der eine Linie von vordefinierter Farbe und Breite nach sich zieht, während er sich über den Hintergrund (Stage) bewegt. Um zu dem Eckpunkt des Spielfelds (x: -150 y: -50) zu gelangen, ohne Schlieren /Striche zu hinterlassen, ist der „Pen Up“-Block nötig. Bevor der „Stift“ (Sprite1) auf das „Papier“ (Hintergrund) gesetzt wird, werden dessen Farbe und Breite definiert. Mit dem „Pen Down“-Block beginnt der Stift das Feld mit drei Zeilen und drei Spalten, der Breite 100, zu zeichnen. Nachdem er 1,5 Sekunden lang gewartet hat, um dem Spieler eine Phase der Orientierung zu verschaffen, vermittelt er die Broadcast-Nachricht „Spielfeld vorbereitet!“ an die übrigen Sprites und verschwindet von der Bildfläche. 
 Auf den folgenden Bildern ist zu erkennen, wie der Block, der den Sprite dazu anweist, das 33 Spielfeld auf den Hintergrund aufzubringen, in drei Schritten entsteht:</p>
  
 <p>1.Zunächst haben wir den Block „Make Tile of Size ...“ erstellt, mithilfe unseres Vorwissens aus den Tutorials. Damit die Größe der Spielfeldzellen auch nachträglich angepasst werden kann, haben wir die Kantenlänge nicht definiert, sondern eine Variable eingefügt. Diese nennt sich „Tile Size“ und beschreibt die Anzahl von Schritten, die der Sprite sich bewegt, bevor er sich um 90° nach rechts dreht und damit eine Ecke bildet. Zudem ist für unser weiteres Vorgehen wichtig, dass die Bewegung an der Stelle aufhört, an der sie angefangen hat, weshalb eine der vier Kanten doppelt gezeichnet wird. Das ist nicht für das Zeichnen einzelner Spielfeldzellen, sondern für das Zeichnen einer Reihe von Spielfeldzellen relevant.</p>
 
-<p><img src="bilder/Bild03.png" alt="Bild3" style="width:420px;height:480px;border:0;"></p>
+<p><img src="bilder/Bild03.png" alt="Bild3" style="width:380px;height:238px;border:0;"></p>
  
 <p>2.Wie bereits angedeutet, werden im nächsten Schritt mehrere Spielfeldzellen zu einer Reihe zusammengefügt, dessen Länge von der Variable „Number of Tiles“ definiert wird. Dabei kann der Vorgang, ein Quadrat von gleichem Start- und Endpunkt zu zeichnen, beliebig oft wiederholt werden, im Falle von Tic-Tac-Toe genau dreimal.</p>
  
-<p><img src="bilder/Bild04.png" alt="Bild4" style="width:800px;height:500px;border:0;"></p>
+<p><img src="bilder/Bild04.png" alt="Bild4" style="width:620px;height:160px;border:0;"></p>
  
 <p>3.Im dritten Schritt werden mehrere Reihen, unter Einführung einer weiteren Variable („Number of Rows“), zu Spalten zusammengefügt. Da der Sprite zu einem universalen Starpunkt zurückkehren muss, um eine neue Reihe abzubrechen, sieht das Programm komplizierter aus, als es eigentlich ist. Der Sprite zeichnet eine Reihe von Spielfeldzellen, zeigt anschließend nach links und bewegt sich um die Länge der gesamten Reihe, also um Kantenlänge und Anzahl der Spielfeldzellen miteinander multipliziert. Anschließend zeigt er nach oben und macht eine Anzahl von Schritten, die der Kantenlänge der Felder entspricht. Dies ist der Punkt, von dem er beginnen kann, eine neue Reihe zu zeichnen. Nur bei der letzten Zeile braucht der Sprite nicht zum Startpunkt zurückkehren, da er keine neue Zeile anbrechen muss.</p>
 
-<p><img src="bilder/Bild05.png" alt="Bild5" style="width:530px;height:420px;border:0;"></p>
+<p><img src="bilder/Bild05.png" alt="Bild5" style="width:574px;height:300px;border:0;"></p>
  
 <h2 style="color:FF00CC;">
  <a id="BNuEdS">Benennung, Nummerierung und Erkennung der Spielfeldzellen</a>
@@ -77,21 +77,21 @@ Auf den folgenden Bildern ist zu erkennen, wie der Block, der den Sprite dazu an
 <p>Wichtig dabei ist vor allem der Reporter „Which Tile?“, der die aktuelle Position des Sprites auf dem Spielfeld prüfen kann, um Informationen über die genaue Zelle, in der der Sprite sich befindet, herauszugeben. Bevor wir mit dem Bau dieses individuellen Blockes beginnen konnten, mussten wir zunächst die Anzahl der Felder, die Breite der Spalten und Zeilen und den Mittelpunkt des Spielfeldes bestimmen, damit kein Interpretationsspielraum bleibt. Da es sich um ein Tic-Tac-Toe Spiel handelt, entschieden wir uns für neun Felder, also drei Spalten und drei Zeilen. Aus Gründen der Einfachheit kürten wir die Koordinaten x: 0 und y: 0 zur Mitte des Spielfeldes, dementsprechend mussten die Zeilen eine Höhe und die Spalten eine Breite von je 100 haben, damit das gesamte Spielfeld auf dem Hintergrund Platz finden konnte. So konnten wir jeder der Spielfeldachsen, also der Linien, die die Ränder und Zwischenräume des Spielfeldes definieren, Koordinaten zuteilen. Bevor wir jedoch einen Block zusammensetzen konnten, der direkt die Nummer der Spielfeldzelle verrät, mussten wir zunächst Blöcke erstellen, die die Position des Sprites auf die X-Koordinaten jeder Spalte und auf die Y-Koordinaten jeder Zeile prüfen und  darüber Auskunft geben, in Form einer booleschen Variable gibt.
 Hier sind alle Reporter aufgelistet, die prüfen, ob der Sprite in Reihe 1, 2, 3 oder in Spalte 1, 2, 3 liegt.</p>
  
-<p><img src="bilder/Bild06.png" alt="Bild6" style="width:500px;height:420px;border:0;"></p>
+<p><img src="bilder/Bild06.png" alt="Bild6" style="width:211px;height:278px;border:0;"></p>
  
 <p>Beispiel Spalte: Damit die Bedingung, der Sprite befände sich in der ersten Spalte, der Wahrheit entspricht, muss dessen X-Koordinate einen Wert zwischen -150 und -50 annehmen. Eine Spalte ist nämlich 100 Schritte breit, das Zentrum des Spielfeldes befindet sich bei x: 0 und y: 0.</p>
 
-<p><img src="bilder/Bild07.png" alt="Bild7" style="width:700px;height:500px;border:0;"></p>
+<p><img src="bilder/Bild07.png" alt="Bild7" style="width:618px;height:245px;border:0;"></p>
  
 <p>Beispiel Zeile: Damit die Bedingung, der Sprite befände sich in der ersten Zeile, der Wahrheit entspricht, muss dessen Y-Koordinate einen Wert zwischen 150 und 50 annehmen. Eine Zeile ist nämlich 100 Schritte hoch, das Zentrum des Spielfeldes befindet sich bei x: 0 und y: 0.</p>
  
-<p><img src="bilder/Bild08.png" alt="Bild8" style="width:700px;height:500px;border:0;"></p>
+<p><img src="bilder/Bild08.png" alt="Bild8" style="width:443px;height:241px;border:0;"></p>
  
 <p>Im nächsten Schritt, der Erstellung des „Which Tile?“-Reporters, werden die Kriterien von Zeile und Spalte miteinander in Verbindung gebracht, um Aufschluss über die genaue Zelle zu erhalten, in der der Sprite sich aktuell befindet. Die Spielfeldzellen sind, in Leserichtung, von eins bis neun nummeriert, was das Erkennungssystem erheblich vereinfacht. Wenn also die Bedingungen für Zeile eins und Spalte eins beide wahr sind, befindet sich der Sprite in Zelle 1. Wenn die Bedingungen für Zeile eins und Spalte zwei wahr sind, befindet sich der Sprite in Zelle 2. Nach diesem Muster kann man jeder Zelle eine Spalte und eine Zeile zuordnen. So ist jede Position des Sprites in einer der neun Spielfeldzellen abhängig von der Nummer der Zeile und der Nummer der Spalte, also von seinen Koordinaten, deren Verständnis wir in mehreren Schritten erheblich erleichtert haben.</p>
  
 <p>Auf diesem Bild ist der Inhalt des Reporters „Which Tile?“ zu erkennen.</p>
 
-<p><img src="bilder/Bild09.png" alt="Bild9" style="width:420px;height:500px;border:0;"></p>
+<p><img src="bilder/Bild09.png" alt="Bild9" style="width:535px;height:444px;border:0;"></p>
  
 <h2 style="color:FF00CC;">
  <a id="MdS">Markierungen der Spieler (Sprite2 und Sprite3)</a>
@@ -100,7 +100,7 @@ Hier sind alle Reporter aufgelistet, die prüfen, ob der Sprite in Reihe 1, 2, 3
 <p>Nun zu den Markierungen, also den Färbungen der Spielfeldzellen in der Farbe, die dem Spieler entspricht, der den Zug gemacht hat: 
 Wir haben uns, für unsere Tic-Tac-Toe Galaxy, dafür entschieden, die Markierungen auf dem Spielfeld schlicht zu halten. Im Gegensatz zum originalen Tic-Tac-Toe haben diese eine quadratische Form, die sich für den Spieler nur in ihrer Farbe unterscheiden, Form und Größe sind für beide Sprites gleich. Dies ist nicht nur Geschmackssache, sondern hat auch einen praktischen Nutzen. Da die Grundstruktur beider Markierungen gleich ist, musste diese nur einmal überlegt, durchdacht und programmiert werden. Damit die Markierungen stets symmetrisch sind, beginnt der Sprite seine Zeichnung in der Mitte der Spielfeldzelle. Die Koordinaten dieser Mitte mussten für jede der neun Zellen definiert und mit dem oben genannten Reporter in Verbindung gebracht werden. Die Bilder stellen zwar den zweiten Schritt des Programmierens dar, die hier gewählte Chronologie ist für den Leser jedoch leichter zu verstehen und begreifen.</p>
 
-<p><img src="bilder/Bild10.png" alt="Bild10" style="width:500px;height:420px;border:0;"></p>
+<p><img src="bilder/Bild10.png" alt="Bild10" style="width:308px;height:450px;border:0;"></p>
 
 <p><img src="bilder/Bild11.png" alt="Bild11" style="width:500px;height:420px;border:0;"></p>
  
