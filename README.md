@@ -108,7 +108,7 @@ Da dies, nach einer mühseligen Doppelstunde, noch nicht für alle Bilder geklap
 
 Nachdem wir alle Bilder aus unserem "bilder" Ordner von unserem GitHub-Pages Projekt auf das Dektop heruntergeladen haben, konnten wir die Eigenschaften jedes einzelnen Bildes öffnen. Ganz oben konnten wir nun die richtigen Maße ablesen. Diese wurden dann in die Angaben im index Quellcode übertragen.
 
-![Pages](bilder/Pages21.PNG "Arbeitsübersicht")
+![Pages](bilder/Pages24.PNG "Arbeitsübersicht")
 
 
 
