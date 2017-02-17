@@ -13,11 +13,12 @@
 
 Frohes Neues Jahr 2017!!! Mit guten Vorsätzen starten wir in das neue Jahr!
 Heute haben wir uns das erste Mal mit GitHub Pages auseinander gesetzt, da wir uns zum Ziel gesetzt haben, unser Tic-Tac-Toe Spiel und die dazugehörigen Dokumentationen / Erklärungen auf einer eigenen Website zu präsentieren. Zuerst haben wir uns das Informationsvideo zu GitHub Pages angeschaut. Um eine Website zu programmieren, die im Browser dargestellt werden kann, benötigt man Grundkenntnisse in HTML (Hypertext Markup Language). Dabei handelt es sich um eine Auszeichnungssprache, die dazu dient, Texte, Bilder und Hyperlinks zu strukturieren. Zwar kann man mithilfe von GitHub Pages aus verschiedenen Vorformaten und Themen auswählen, die optisch ansprechend sind, wir haben uns jedoch dazu entschieden, von ganz unten zu beginnen und keine Formatvorlagen zu verwenden ("Start from scratch").
+
 Wir erstellten zunächst ein neues Repository auf unserem Account murielantonia unter dem Titel "GitHub Pages". In diesem Repository haben wir einen neuen Ordner angelegt, der aus einer read.me Datei und einer index.html Datei besteht. In den index.html Ordner können wir nun den Quellcode für unsere Website programmieren. Unsere erste Zeile HTML-Code zeigt den Schriftzug "Hello World!" auf einer leeren Seite unter folgendem Link: https://murielantonia.github.io/GitHub-Pages/ 
 
 ![Pages01](bilder/Pages01.PNG "Erster Schriftzug")
 
-Mit Hilfe eines Online Tutorials haben wir begonnen, uns erste Befehle in HTML anzueignen. Beispielhaft fügten wir den ersten Paragraphen aus unserem Tic-Tac-Toe Galaxy Dokument ein. Wir nutzten auch das neu errungene Wissen, um passende Überschriften zu formulieren und formatieren.
+Mit Hilfe eines Online Tutorials haben wir begonnen, uns erste Befehle in HTML anzueignen. Beispielhaft fügten wir den ersten Paragraphen aus unserem Tic-Tac-Toe Galaxy Dokument ein. Wir nutzten auch das neu errungene Wissen, um passende Überschriften zu formulieren und formatieren. Die meisten HTML-Elemente, in unserem Fall Titel und Paragraphen, sind von einem Tag-Paar umrahmt, also von einem Start- und einem Endtag. Der Starttag besteht aus einem Kleiner-Zeichen und dem Namen des Elementes, bei der Überschrift "Hello World" sei es h1, und endet mit einem Größer-Zeichen. Der Endtag setzt sich zusammen aus Kleiner-Zeichen, Schrägstrich, Name des Elements (h1) und Größer-Zeichen. Das klingt komplizierter, als es eigentlich ist:
 
 ![Pages02](bilder/Pages02.PNG "Überschriften programmieren")
 
@@ -38,7 +39,7 @@ Danach konnten wir auf unserem Desktop die Bilderordner mit drag-and-drop versch
 
 War dies vollbracht, mussten wir nur noch unser Werk synchronisieren, damit die Bilder im Dokument erscheinen konnten. 
 
-Nun arbeiteten wir weiter an unserer Website. Dazu haben wir den Text aus dem Tic-Tac-Toe Galaxy Projekt in die index.html File kopiert und in Paragraphen unterteilt.Die Überschriften haben wir in fett und die Zusammenfassung in kursiv geschrieben. Damit wir später wissen, an welche Stellen die Bilder eingefügt werden sollen, haben wir uns Notizen dazu gemacht.
+Nun arbeiteten wir weiter an unserer Website. Dazu haben wir den Text aus dem Tic-Tac-Toe Galaxy Projekt in die index.html File kopiert und in Paragraphen unterteilt.Die Überschriften haben wir in fett und die Zusammenfassung in kursiv geschrieben. Damit wir später wissen, an welche Stellen die Bilder eingefügt werden sollen, haben wir uns Notizen dazu gemacht (Bild).
 
 ![Pages07](bilder/Pages07.PNG "Paragraphen im Quellcode")
 
@@ -52,13 +53,13 @@ Um uns die Arbeit zu erleichtern, haben wir den Text der Tic-Tac-Toe Galaxy in e
 
 ![Pages06](bilder/Pages06.PNG "Arbeitsweise")
 
-Der Versuch ein Inhaltsverzeichnis zu erstellen ist leider gescheitert...
+Unser Versuch, ein Inhaltsverzeichnis mit Hyperlinks zu erstellen, ist zunächst leider gescheitert.
 
-![Pages12](bilder/Pages12.PNG "Das Scheitern (Damm, damm, damm)")
+![Pages12](bilder/Pages12.PNG "Das Scheitern")
 
 ##Zusätzliche Informatikstunde<a name="zusatz"><a/>                                                                   13.02.2017
 
-Das Inhaltsverzeichnis funktioniert doch! Man muss die Website nur aktualisieren und ihr einige Zeit geben....Es sind noch einige Fehler drin, die jetzt behoben werden!
+Das Inhaltsverzeichnis funktioniert doch! Man muss die Website nur aktualisieren und ihr einige Zeit geben. Es sind noch einige Fehler drin, die jetzt behoben werden!
 
 ![Pages13](bilder/Pages13.PNG "Inhaltsverzeichnis klappt!")
 
