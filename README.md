@@ -11,9 +11,9 @@
 
 ##Vierzehnte Informatikstunde<a name="vierzehn"><a/>                                                               26.01.2017
 
-Erst einmal Frohes Neues Jahr 2017!!! Mit guten Vorsätzen starten wir in das neue Jahr....
-Heute haben wir uns das erste Mal mit GitHub Pages auseinander gesetzt. Zuerst haben wir uns das Informationsvideo zu GitHub Pages angeschaut. Für Website machten wir Folgendes:
-Wir erstellten zunächst ein neues Repository auf unserem Account murielantonia unter dem Titel "GitHub Pages". In diesem Repository haben wir einen neuen Ordner erstellt, der aus einer read.me Datei und einer index.html Datei besteht. In den index.html Ordner können wir nun den Quellcode für unsere Website programmieren. Unsere erste Zeile HTML-Code zeigt den Schriftzug "Hello World!" auf einer leeren Seite unter folgendem Link: https://murielantonia.github.io/GitHub-Pages/ 
+Frohes Neues Jahr 2017!!! Mit guten Vorsätzen starten wir in das neue Jahr!
+Heute haben wir uns das erste Mal mit GitHub Pages auseinander gesetzt, da wir uns zum Ziel gesetzt haben, unser Tic-Tac-Toe Spiel und die dazugehörigen Dokumentationen / Erklärungen auf einer eigenen Website zu präsentieren. Zuerst haben wir uns das Informationsvideo zu GitHub Pages angeschaut. Um eine Website zu programmieren, die im Browser dargestellt werden kann, benötigt man Grundkenntnisse in HTML (Hypertext Markup Language). Dabei handelt es sich um eine Auszeichnungssprache, die dazu dient, Texte, Bilder und Hyperlinks zu strukturieren. Zwar kann man mithilfe von GitHub Pages aus verschiedenen Vorformaten und Themen auswählen, die optisch ansprechend sind, wir haben uns jedoch dazu entschieden, von ganz unten zu beginnen und keine Formatvorlagen zu verwenden ("Start from scratch").
+Wir erstellten zunächst ein neues Repository auf unserem Account murielantonia unter dem Titel "GitHub Pages". In diesem Repository haben wir einen neuen Ordner angelegt, der aus einer read.me Datei und einer index.html Datei besteht. In den index.html Ordner können wir nun den Quellcode für unsere Website programmieren. Unsere erste Zeile HTML-Code zeigt den Schriftzug "Hello World!" auf einer leeren Seite unter folgendem Link: https://murielantonia.github.io/GitHub-Pages/ 
 
 ![Pages01](bilder/Pages01.PNG "Erster Schriftzug")
 
@@ -98,7 +98,7 @@ Heute erstellten wir zunächst eine kleine "Werbung" für unseren GitHub Account
 Zunächst wir der Paragraph (p) geöffnet. Danach wird "mark" geöffnet. Alles was zwischen diesem Tag (und seiner Schließung) ist, wird markiert. Wir wählten die Farbe Pink (background-colour:FF00CC;). In unserem Text unterlegten wir "unsere GitHub Seite" italic (i) und "weitere tolle Projekte" fett (b). Wir fügten außerdem einen äußeren Link zu unserem GitHub Account ein. Anschließend wird "mark" geschlossen, womit alles markiert wird und schließlich auch der Paragraph (p).
 
 Danach machten wir uns weiter daran, die bilder so zu formatieren, dass sie auf unsere Website nicht verzerrt sind. Hierbei gilt ausprobieren! Das heißt wir ändern die Länge oder Höhe (von 420 x 420) um, klicken "commit changes", aktualisieren GitHub und aktualisieren unsere Website. Dann hoffen wir, dass die Größe nun passt, denn sonst muss der beschriebene Ablauf noch einmal durhgeführt werden. Dies wiederholen wir für jedes Bild (außer denen, die mit 420 x 420 schon ein gutes Format haben).
- Da dies, nach einer mühseligen Doppelstunde, noch nicht für alle Bilder geklappt hat, hat Stefan un snoch einen tipp gegeben: Wir können die Maße auch auf dem Desktop für jedes Bild ablesen. Zu Hause werden wir uns also noch einmal mit der Formatierung befassen!
+Da dies, nach einer mühseligen Doppelstunde, noch nicht für alle Bilder geklappt hat, hat Stefan un snoch einen tipp gegeben: Wir können die Maße auch auf dem Desktop für jedes Bild ablesen. Zu Hause werden wir uns also noch einmal mit der Formatierung befassen!
 
 
 
