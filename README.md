@@ -110,6 +110,13 @@ Nachdem wir alle Bilder aus unserem "bilder" Ordner von unserem GitHub-Pages Pro
 
 ![Pages](bilder/Pages24.PNG "Arbeitsübersicht")
 
+##Weitere Informatikstunde<a name="weitere"></a>                                                                  18.02.2017
+
+Da wir diese Website so weit erfolgreich erstellt haben, wurde nun eine Website unter dem Titel "GitHub-Pages 2.0" erstellt. Auf dieser wird dem Leser das lästige scrollen erspart!
+Dazu machten wir für jedes Kapitel einen eigenen Quellcode und verlinkten diesen mit einem äußeren Link auf der Startseite. Nun nimmt unsere Website langsam mehr gestalt an. Wir nutzten für jede Unterseite eine andere Hintergrundfarbe. Hier der Link zu der Seite: https://murielantonia.github.io/GitHub-Pages-2.0/Startseite
+
+Als nächstes Projekt wollen wir unsere Website perfektionieren, dh. zum Beispiel Seitenleisten programmieren und die Bilder auf der Seite verteielen.
+
 
 
 
