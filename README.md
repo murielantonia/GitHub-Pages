@@ -11,6 +11,8 @@
 
 [Zusätzliche Informatikstunde](#zusätzlich)
 
+[Weitere Informatikstunde](#weitere)
+
 ##Vierzehnte Informatikstunde<a name="vierzehn"><a/>                                                               26.01.2017
 
 Frohes Neues Jahr 2017!!! Mit guten Vorsätzen starten wir in das neue Jahr!
