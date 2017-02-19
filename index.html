@@ -4,7 +4,7 @@
   <title>Tic-Tac-Toe Galaxy</title>
 </head>
  
-<h1><mark style="color:FF00CC;">Hello World!</mark></h1>
+<h1><mark style="color:FF00CC;"><a id=HW>"Hello World!</a></mark></h1>
 
 <li><a href="#BmS">Bekannmachung mit Snap!</a></li>
 <li><a href="#I">Idee</a></li>
@@ -27,6 +27,8 @@
  
 <p>Nachdem wir uns zu Hause einzeln über die unterschiedlichen Programme informiert hatten, besuchten wir gemeinsam die Homepages der für  uns interessanten Optionen: „Greenfoot“ und „The Beauty and Joy of Computing“ Wir suchten uns einige Tutorials zu „Greenfoot“ raus und starteten mit der „Wombats Welt“, um uns einen Überblick über die Anwendung zu verschaffen. Allerdings fanden wir keinen richtigen Zugang, hatten kein ausreichendes Grundwissen und waren skeptisch gegenüber der Bildungssoftware. Nach der Stunde waren wir uns noch unschlüssig, welche der beiden Anwendungen wir zum lernen nutzen wollten und nahmen uns ein „Greenfoot“ Buch mit nach Hause, um uns weiter damit auseinanderzusetzen. Schließlich entschieden wir uns für „Beauty and Joy of Computing“, da die bunten Farben der blockbasierten Programmierprache Snap! ansprechend und der Lehrplan (Curriculum) schüler- und studentenfreundlich organisiert war. Außerdem wir die Anwendung genutzt, an Schulen und Universitäten in hauptsächlich den USA. Somit gehören wir, als Schüler, zur Zielgruppe des Tutorials, was unsere Entscheidung zusätzlich beeinflusste. Überzeugt hat uns zudem das Argument des Programmtitels, welcher Schönheit und Freude des Programmierens verspricht.</p>
  
+ <li><a href="#HW">Zurück zum Anfang</a></li>
+ 
 <h2 style="color:FF00CC;">
 <a id="I">Idee</a>
 </h2>
@@ -34,6 +36,8 @@
 <p>Willkommen in der Tic-Tac-Toe Galaxy. Bei diesem Projekt handelt es sich, wie dessen Name und Titel bereits andeuten, um ein Tic-Tac-Toe Spiel. Dieses wurde mit der blockbasierten Programmiersprache „Snap!“ erstellt, mit der wir uns im Laufe des Halbjahres intensiv auseinandergesetzt haben. Zur Vorbereitung auf dieses erste eigene Projekt haben wir das Tutorial „The Beauty and Joy of Computing“ (University of California, Berkeley) durchgearbeitet, sind beim Programmieren jedoch hauptsächlich von dessen Vorschlägen abgewichen und unseren eigenen Weg gegangen, um einen maximalen Lerneffekt zu erzielen.</p>
  
 <p>Das Projekt ist in der Cloud von Snap! gespeichert. Solltet ihr das Spiel ausprobieren wollen, folgt  dem Link (http://snap.berkeley.edu/snapsource/snap.html) und loggt euch mit unseren Zugangsdaten in die Cloud ein (Benutzername: muritoni Passwort: d5j48n). Wählt im Projektverzeichnis „Tolles Projekt“ und klickt auf die grüne Fahne, um das Spiel zu beginnen. Natürlich könnt ihr euch  auch einen Überblick über Sprites und Skripte verschaffen, die wir im folgenden genauer erläutern werden.</p>
+ 
+ <li><a href="#HW">Zurück zum Anfang</a></li>
  
 <h2 style="color:FF00CC;">
  <a id="BdS">Beginn des Spiels</a>
@@ -44,6 +48,8 @@
  <p><img src="bilder/Bild01.png" alt="Bild1" style="width:698px;height:348px;border:0;"></p>
  
 <p>Übersetzung: Sobald die grüne Fahne geklickt wurde, reagiert der „When Clicked“ –Block und startet das Programm. Diesem folgend befreit der Sprite den Hintergrund von Spielfeld und Markierungen aus vorherigen Runden („Clear“). Dann nimmt er Gestalt und Größe eines Space-Shuttles an, zeigt nach Oben (180) und erscheint („Show“) auf der Bildfläche. Seine Route startet bei den Koordinaten x: -200 und y: -100, anschließend bewegt er sich, innerhalb von drei Sekunden, in die Mitte des Spielfeldes. Dort sagt er vier Sekunden lang: „Willkommen in der Tic-Tac-Toe Galaxy! Klicke mich, um anzufangen!“. Es passiert zunächst nichts, bis der Klick des Spielers das nächste Programmteil auslöst. Nun fliegt die Rakete, innerhalb von drei Sekunden, zu einem Punkt außerhalb der Sichtweite der Spieler (x: 250 y: 250). Mithilfe des „Broadcast“-Blockes vermittelt der Sprite, nach Befolgung der übrigen Anweisungen, die Nachricht „Spiel gestartet!“. Diese Nachricht kann von weiteren Sprites empfangen werden und sie anweisen, ihr Programm zu starten.</p>
+ 
+ <li><a href="#HW">Zurück zum Anfang</a></li>
  
 <h2 style="color:FF00CC;">
  <a id="ZdTTTF">Zeichnen des Tic-Tac-Toe Feldes (Spielfeldgitter)</a>
@@ -67,6 +73,8 @@ Auf den folgenden Bildern ist zu erkennen, wie der Block, der den Sprite dazu an
 <p>3.Im dritten Schritt werden mehrere Reihen, unter Einführung einer weiteren Variable („Number of Rows“), zu Spalten zusammengefügt. Da der Sprite zu einem universalen Starpunkt zurückkehren muss, um eine neue Reihe abzubrechen, sieht das Programm komplizierter aus, als es eigentlich ist. Der Sprite zeichnet eine Reihe von Spielfeldzellen, zeigt anschließend nach links und bewegt sich um die Länge der gesamten Reihe, also um Kantenlänge und Anzahl der Spielfeldzellen miteinander multipliziert. Anschließend zeigt er nach oben und macht eine Anzahl von Schritten, die der Kantenlänge der Felder entspricht. Dies ist der Punkt, von dem er beginnen kann, eine neue Reihe zu zeichnen. Nur bei der letzten Zeile braucht der Sprite nicht zum Startpunkt zurückkehren, da er keine neue Zeile anbrechen muss.</p>
 
 <p><img src="bilder/Bild05.png" alt="Bild5" style="width:574px;height:300px;border:0;"></p>
+ 
+ <li><a href="#HW">Zurück zum Anfang</a></li>
  
 <h2 style="color:FF00CC;">
  <a id="BNuEdS">Benennung, Nummerierung und Erkennung der Spielfeldzellen</a>
@@ -93,6 +101,8 @@ Hier sind alle Reporter aufgelistet, die prüfen, ob der Sprite in Reihe 1, 2, 3
 
 <p><img src="bilder/Bild09.png" alt="Bild9" style="width:535px;height:444px;border:0;"></p>
  
+ <li><a href="#HW">Zurück zum Anfang</a></li>
+ 
 <h2 style="color:FF00CC;">
  <a id="MdS">Markierungen der Spieler (Sprite2 und Sprite3)</a>
 </h2>
@@ -117,6 +127,8 @@ Wir haben uns, für unsere Tic-Tac-Toe Galaxy, dafür entschieden, die Markierun
 <p><img src="bilder/Bild15.png" alt="Bild15" style="width:563px;height:434;border:0;"></p>
  
 <p>Nachdem die Sprites also die gewollte und gewünschte Spielfeldzelle markiert haben, senden sie zwei Broadcast-Nachrichten („Feld markieren: Blau!“ und „Spielende?“) und warten eine Sekunde, bevor sie zu ihrer ursprünglichen Position zurückkehren. Anschließend geben sie eine weitere Nachricht ab, jedoch nicht im Hintergrund des Geschehens, sondern für den Spieler sichtbar. Dieser soll dazu aufgefordert werden, die Maus weiterzugeben und mit dem nächsten Sprite eine Markierung auf dem Spielfeld zu machen. Das Ufo sagt nach einem vollendeten Spielzug: „Astronaut, du bist an der Reihe!“. Der Astronaut sagt nach einem vollendeten Spielzug: „Ufo, zeig, was du kannst!“</p>
+ 
+ <li><a href="#HW">Zurück zum Anfang</a></li>
  
 <h2 style="color:FF00CC;"><b>
  <a id="ARuAdG">Automatische Registrierung und Ankündigung des Gewinners</a>
@@ -161,7 +173,9 @@ Wir haben uns, für unsere Tic-Tac-Toe Galaxy, dafür entschieden, die Markierun
 <p><img src="bilder/Bild24.png" alt="Bild24" style="width:409px;height:476px;border:0;"></p>
  
 <p>Übersetzung: Der „Announce: Red wins!“-Block, der unter den Kategorien „Motion“ und „Command“ abgelegt ist, enthält ein Programm zur Ankündigung des Spielgewinners.  Dafür befreit der Sprite4 (Spielleiter) zunächst den Hintergrund von Spielfeldgitter und Markierungen („Clear“). Bevor er sich dem Spieler zeigt, begibt er sich zu den Koordinaten x: 0 und y: 0, zeigt in Richtung 90, also nach rechts, und wechselt sein Kostüm. Dabei kann es sich entweder um „Ufo gewinnt!“ oder „Astronaut gewinnt!“ handeln, die Größe des Sprites wird auf 75% + 10% = 85% festgelegt. Nun ist alles vorbereitet und der Sprite kann sich zeigen („Show“). Die Auf- und Abbewegung setzt sich aus drei Teilen zusammen. Zunächst bewegt sich der Sprite, innerhalb von 1.5 Sekunden, nach unten, also zu den Koordinaten x: 0 und y: -50. Anschließend bewegt sich der Sprite, innerhalb von 3 Sekunden, nach oben, also zu den Koordinaten x: 0 und y: 50. Zuletzt bewegt sich der Sprite, innerhalb von 1.5 Sekunden, zurück in die Mitte des Spielfeldes, also zu den Koordinaten x: 0 und y: 0. Nach der Bewegung macht der Sprite sich für den Spieler unsichtbar (“Hide“) und das Spiel kann, durch klicken der grünen Fahne, erneut begonnen werden.</p>
-
+ 
+ <li><a href="#HW">Zurück zum Anfang</a></li>
+ 
  <h2 style="color:FF00CC;"><b>
   <a id="ARuAeG">Automatische Registrierung und Ankündigung eines Gleichstandes</a>
  </b></h2>
@@ -178,6 +192,8 @@ Wir haben uns, für unsere Tic-Tac-Toe Galaxy, dafür entschieden, die Markierun
  
 <p>Durch Klicken der grünen Fahne kann das Spiel nun von neuem beginnen.</p>
  
+ <li><a href="#HW">Zurück zum Anfang</a></li>
+ 
  <h2 style="color:FF00CC;"><b>
   <a id="PuHbP">Probleme und Hindernisse beim Programmieren:</a>
  </b></h2>
@@ -193,6 +209,8 @@ Wir haben uns, für unsere Tic-Tac-Toe Galaxy, dafür entschieden, die Markierun
 <p>Der zweite Fehler im Programm hängt eng mit dem ersten zusammen. Man kann nämlich eine Markierung mit seiner eigenen Markierung überschreiben. Dies bringt das Variablensystem durcheinander und führt dazu, dass entweder kein, oder der falsche Gewinner / Verlierer festgestellt wird. Zudem wird das Spiel dadurch unfair, abhängig davon, ob die Spieler von dem Fehler wissen oder nicht. Ein Lösungsansatz könnte sein, vor dem Markieren die Variable des gewünschten / gewollten Feldes zu prüfen, jedoch sind unsere Versuche mit dieser Methode stets gescheitert.</p>
  
 <p>Insgesamt haben wir vor, uns um die Fehler zu kümmern, um die Tic-Tac-Toe Erfahrungen der Spieler so einfach angenehm wie möglich zu gestalten. Jedoch handelt es sich bei diesem Projekt noch um einen Rohdiamanten, den wir, im Laufe des kommenden Halbjahres, schleifen und perfektionieren wollen. Wir hoffen, dass unsere Arbeit bisher trotzdem zu einem zufriedenstellenden Ergebnis geführt hat, für den, der die standardisierten Tic-Tac-Toe Regeln verstehen und anwenden kann.</p>
+ 
+ <li><a href="#HW">Zurück zum Anfang</a></li>
  
  <h2 style="color:FF00CC;"><b>
   <a id="DvSuS">Design von Stage und Sprites</a>
@@ -232,17 +250,22 @@ Wir haben uns, für unsere Tic-Tac-Toe Galaxy, dafür entschieden, die Markierun
 
 <p><img src="bilder/Bild37.png" alt="Bild37" style="width:945px;height:624px;border:0;"></p>
  
+ <li><a href="#HW">Zurück zum Anfang</a></li>
+ 
 <h2 style="color:FF00CC;"><b>
  <a id="C">Conclusion</a>
 </b></h2>
  
 <p><i>Wir sind sehr zufrieden mit dem Ergebnis unserer Arbeit. Wir haben es geschafft ein eigenes und bespielbares Tic-Tac-Toe Spiel zu erstellen. Wir haben uns ausführlích mit dem Programm Snap! befasst und dabei vieles neues gelernt. Nun sind wir einen Schritt weiter und freuen uns auf ein tolles neues Projekt!</i></p>
-
+ 
+ <li><a href="#HW">Zurück zum Anfang</a></li>
 <h2 Style="color:FF00CC;"><b>
  <a id="Vu">Visit us</a>
 </b></h2>
  
 <p><mark style="background-color:FF00CC;">Besucht <i>unsere GitHub Seite</i><a href="https://github.com/murielantonia">murielantonia</a>, um mehr über uns zu erfahren und <b>weitere tolle Projekte</b> zu besichtigen!</mark></p>
+ 
+ <li><a href="#HW">Zurück zum Anfang</a></li>
  
 </body>
  
