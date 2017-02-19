@@ -117,7 +117,7 @@ Nachdem wir alle Bilder aus unserem "bilder" Ordner von unserem GitHub-Pages Pro
 Da wir diese Website so weit erfolgreich erstellt haben, wurde nun eine Website unter dem Titel "GitHub-Pages 2.0" erstellt. Auf dieser wird dem Leser das lästige scrollen erspart!
 Dazu machten wir für jedes Kapitel einen eigenen Quellcode und verlinkten diesen mit einem äußeren Link auf der Startseite. Nun nimmt unsere Website langsam mehr gestalt an. Wir nutzten für jede Unterseite eine andere Hintergrundfarbe. Hier der Link zu der Seite: https://murielantonia.github.io/GitHub-Pages-2.0/Startseite
 
-Als nächstes Projekt wollen wir unsere Website perfektionieren, dh. zum Beispiel Seitenleisten programmieren und die Bilder auf der Seite verteielen. Mit einer einheitlichen Seitenleiste, könnte von allen Einzelseiten auf jede andere Seite zugegriffen werden, ohne den Umweg über die Startseite zu machen.
+Als nächstes Projekt wollen wir unsere Website perfektionieren, dh. zum Beispiel Seitenleisten programmieren und die Bilder auf der Seite verteielen. Mit einer einheitlichen Seitenleiste, könnte von allen Einzelseiten auf jede andere Seite zugegriffen werden, ohne den Umweg über die Startseite zu machen. Auf einer weiteren Seitenleiste (zb. rechts) könnte man Werbung einblenden und so auch noch Geld gewinnen!
 
 
 
