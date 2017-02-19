@@ -112,6 +112,14 @@ Nachdem wir alle Bilder aus unserem "bilder" Ordner von unserem GitHub-Pages Pro
 
 ![Pages](bilder/Pages24.PNG "Arbeitsübersicht")
 
+Schließlich programmierten wir noch einen inneren Link hinter jedes Kapitel, um "zurück zum Anfang" zu springen.
+
+![Pages](bilder/Pages25.PNG "Zurück zum Anfang")
+
+![Pages](bilder/Pages26.PNG "Quellcode zurück zum Anfang")
+
+Übersetzung: Wir nutzten einen Tag, welcher in der Überschrift "Hello World!" auch verlinkt ist. Unseren inneren Link nannten wir "zurück zum Anfang". Klickt man diesen nun, kommt man zu der Überschrift "Hello World" zurück und kann so auch das Inhaltsverzeichnis sehen. Das erleichtert es um einiges, sich auf der Website zu bewegen!
+
 ##Weitere Informatikstunde<a name="weitere"></a>                                                                  18.02.2017
 
 Da wir diese Website so weit erfolgreich erstellt haben, wurde nun eine Website unter dem Titel "GitHub-Pages 2.0" erstellt. Auf dieser wird dem Leser das lästige scrollen erspart!
