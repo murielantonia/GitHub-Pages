@@ -43,7 +43,7 @@ Danach konnten wir auf unserem Desktop die Bilderordner mit drag-and-drop versch
 
 War dies vollbracht, mussten wir nur noch unser Werk synchronisieren, damit die Bilder im Dokument erscheinen konnten. 
 
-Nun arbeiteten wir weiter an unserer Website. Dazu haben wir den Text aus dem Tic-Tac-Toe Galaxy Projekt in die index.html File kopiert und in Paragraphen unterteilt.Die Überschriften haben wir in fett und die Zusammenfassung in kursiv geschrieben. Damit wir später wissen, an welche Stellen die Bilder eingefügt werden sollen, haben wir uns Notizen dazu gemacht (Bild).
+Nun arbeiteten wir weiter an unserer Website. Dazu haben wir den Text aus dem Tic-Tac-Toe Galaxy Projekt in die index.html File kopiert und in Paragraphen unterteilt. Die Überschriften haben wir in fett und die Zusammenfassung in kursiv geschrieben. Damit wir später wissen, an welche Stellen die Bilder eingefügt werden sollen, haben wir uns Notizen dazu gemacht (Bild).
 
 ![Pages07](bilder/Pages07.PNG "Paragraphen im Quellcode")
 
@@ -81,11 +81,11 @@ Da heute Valentinstag ist, haben wir passend zum Thema alle Überschriften pink 
 
 ![Pages17](bilder/Pages17.PNG "Pinke Überschriften auf Website")
 
-Wir stellten fest, dass es für die Überschriften nicht nötig ist, den Text fett zu formatieren.
+Wir stellten fest, dass es für die Überschriften nicht nötig ist, den Text fett zu formatieren. 
 
 ![Pages18](bilder/Pages18.PNG "Quellcode für pinke Überschriften")
 
-Jetzt habe wir erfolgreich unsere "Über-Überschrift Hello World!" nicht nur gelb markiert, sondern auch pink gefärbt! Der Kontrast ist atemberaubend!!!
+Jetzt habe wir erfolgreich unsere Über-Überschrift "Hello World!" nicht nur gelb markiert, sondern auch pink gefärbt! Der Kontrast ist atemberaubend!
 
 ![Pages](bilder/Pages19.PNG "Markiertes Hello World")
 
@@ -93,17 +93,17 @@ Jetzt habe wir erfolgreich unsere "Über-Überschrift Hello World!" nicht nur ge
 
 ##Siebzehnte Informatikstunde<a name="siebzehn"></a>                                                                  16.02.2017
 
-Heute erstellten wir zunächst eine kleine "Werbung" für unseren GitHub Account...
+Heute erstellten wir zunächst eine kleine "Werbung" für unseren GitHub Account.
 
 ![Pages](bilder/Pages21.PNG "Werbung")
 
 ![Pages](bilder/Pages23.PNG "Quellcode für unsere Werbung")
 
 Übersetzung:Wir nutzten viele verschiedene Specials.
-Zunächst wir der Paragraph (p) geöffnet. Danach wird "mark" geöffnet. Alles was zwischen diesem Tag (und seiner Schließung) ist, wird markiert. Wir wählten die Farbe Pink (background-colour:FF00CC;). In unserem Text unterlegten wir "unsere GitHub Seite" italic (i) und "weitere tolle Projekte" fett (b). Wir fügten außerdem einen äußeren Link zu unserem GitHub Account ein. Anschließend wird "mark" geschlossen, womit alles markiert wird und schließlich auch der Paragraph (p).
+Zunächst wird der Paragraph ("p") mit einem Starttag geöffnet. Danach wird "mark" geöffnet. Alles was zwischen diesem Tag-Paar ist, wird markiert. Für diese Markierung wählten die Farbe Pink (background-colour:FF00CC;). In unserem Text unterlegten wir "Unsere GitHub Seite" italic (i) und "Weitere tolle Projekte" fett (b). Wir fügten außerdem einen äußeren Link zu unserem GitHub Account ein. Anschließend werden die Endtags für "mark" und "p" eingefügt.
 
-Danach machten wir uns weiter daran, die bilder so zu formatieren, dass sie auf unsere Website nicht verzerrt sind. Hierbei gilt ausprobieren! Das heißt wir ändern die Länge oder Höhe (von 420 x 420) um, klicken "commit changes", aktualisieren GitHub und aktualisieren unsere Website. Dann hoffen wir, dass die Größe nun passt, denn sonst muss der beschriebene Ablauf noch einmal durhgeführt werden. Dies wiederholen wir für jedes Bild (außer denen, die mit 420 x 420 schon ein gutes Format haben).
-Da dies, nach einer mühseligen Doppelstunde, noch nicht für alle Bilder geklappt hat, hat Stefan un snoch einen tipp gegeben: Wir können die Maße auch auf dem Desktop für jedes Bild ablesen. Zu Hause werden wir uns also noch einmal mit der Formatierung befassen!
+Danach machten wir uns weiter daran, die Bilder so zu formatieren, dass sie auf unsere Website nicht verzerrt sind. Hierbei gilt zunächst ausprobieren, da wir bisher noch keine Möglichkeit gefunden haben, die Maße in den Eigenschaften der Bilddateien zu überprüfen. Wir ändern die Länge und / oder Höhe (von 420 x 420), klicken "commit changes", aktualisieren GitHub und aktualisieren unsere Website. Dann hoffen wir, dass die Größe passt, denn sonst muss der beschriebene Ablauf noch einmal durhgeführt werden. Dies wiederholen wir für jedes Bild, außer denen, die mit 420 x 420 -Format kaum verzerrt und leicht erkennbar sind.
+Da dies, nach einer mühseligen Doppelstunde, noch nicht für alle Bilder geklappt hat, hat Stefan uns noch einen Tipp gegeben: Wir können die Maße auch auf dem Desktop für jedes Bild ablesen. Zu Hause werden wir uns also noch einmal mit der Formatierung befassen!
 
 
 ##Zusätzliche Informatikstunde<a name="zusätzlich"></a>                                                           17.02.2017
@@ -118,14 +118,14 @@ Schließlich programmierten wir noch einen inneren Link hinter jedes Kapitel, um
 
 ![Pages](bilder/Pages26.PNG "Quellcode zurück zum Anfang")
 
-Übersetzung: Wir nutzten einen Tag, welcher in der Überschrift "Hello World!" auch verlinkt ist. Unseren inneren Link nannten wir "zurück zum Anfang". Klickt man diesen nun, kommt man zu der Überschrift "Hello World" zurück und kann so auch das Inhaltsverzeichnis sehen. Das erleichtert es um einiges, sich auf der Website zu bewegen!
+Übersetzung: Wir nutzten einen Tag, welcher in der Überschrift "Hello World!" auch verlinkt ist. Unseren inneren Link nannten wir "Zurück zum Anfang". Klickt man diesen nun, kommt man zu der Überschrift "Hello World" zurück und kann so auch das Inhaltsverzeichnis sehen. Das erleichtert es um einiges, sich auf der Website zu bewegen!
 
 ##Weitere Informatikstunde<a name="weitere"></a>                                                                  18.02.2017
 
 Da wir diese Website so weit erfolgreich erstellt haben, wurde nun eine Website unter dem Titel "GitHub-Pages 2.0" erstellt. Auf dieser wird dem Leser das lästige scrollen erspart!
 Dazu machten wir für jedes Kapitel einen eigenen Quellcode und verlinkten diesen mit einem äußeren Link auf der Startseite. Nun nimmt unsere Website langsam mehr gestalt an. Wir nutzten für jede Unterseite eine andere Hintergrundfarbe. Hier der Link zu der Seite: https://murielantonia.github.io/GitHub-Pages-2.0/Startseite
 
-Als nächstes Projekt wollen wir unsere Website perfektionieren, dh. zum Beispiel Seitenleisten programmieren und die Bilder auf der Seite verteielen. Mit einer einheitlichen Seitenleiste, könnte von allen Einzelseiten auf jede andere Seite zugegriffen werden, ohne den Umweg über die Startseite zu machen. Auf einer weiteren Seitenleiste (zb. rechts) könnte man Werbung einblenden und so auch noch Geld gewinnen!
+Als nächstes Projekt wollen wir unsere Website perfektionieren, beispielsweise Seitenleisten programmieren und die Bilder auf der Seite arrangieren. Mit einer einheitlichen Seitenleiste könnte von allen Einzelseiten auf jede andere Einzelseite zugegriffen werden, ohne den Umweg über die Startseite zu machen. Auf einer weiteren Seitenleiste könnte man Werbung einblenden und so auch noch Geld verdienen!
 
 
 
