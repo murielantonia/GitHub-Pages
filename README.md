@@ -43,7 +43,7 @@ Danach konnten wir auf unserem Desktop die Bilderordner mit drag-and-drop versch
 
 War dies vollbracht, mussten wir nur noch unser Werk synchronisieren, damit die Bilder im Dokument erscheinen konnten. 
 
-Nun arbeiteten wir weiter an unserer Website. Dazu haben wir den Text aus dem Tic-Tac-Toe Galaxy Projekt in die index.html File kopiert und in Paragraphen unterteilt. Die Überschriften haben wir in fett und die Zusammenfassung in kursiv geschrieben. Damit wir später wissen, an welche Stellen die Bilder eingefügt werden sollen, haben wir uns Notizen dazu gemacht (Bild).
+Nun arbeiteten wir weiter an unserer Website. Dazu haben wir den Text aus dem Tic-Tac-Toe Galaxy Projekt in die index.html File kopiert und in Paragraphen unterteilt. Wie bereits erklärt, entsteht ein Paragraph zwischen dem Tag-Paar, also zwischen Start- und Endtag mit dem Titel "p". Die Überschriften haben wir in fett und die Zusammenfassung in kursiv geschrieben. Damit wir später wissen, an welche Stellen die Bilder eingefügt werden sollen, haben wir uns Notizen dazu gemacht (Bild).
 
 ![Pages07](bilder/Pages07.PNG "Paragraphen im Quellcode")
 
@@ -61,6 +61,8 @@ Unser Versuch, ein Inhaltsverzeichnis mit Hyperlinks zu erstellen, ist zunächst
 
 ![Pages12](bilder/Pages12.PNG "Das Scheitern")
 
+Übersetzung: Bei den Links im Inhaltsverzeichnes handelt es sich um interne Links und damit um Verweise innerhalb der Webseite auf Unterseiten. Das a steht für "anchor" (Anker) aus dem Englischen. Verbunden mit dem Attribut href (Hyperreferenz) entsteht ein Verweis eine andere Textstelle, die mit einem Tag markiert ist. Dieser muss an Textstelle und Inhaltsverzeichnis übereinstimmen. Der Linktext, beispielsweise "Idee" ist unabhängig von dieser relativen Addressierung und wird standardmäßig unterstrichen und in blau angezeigt. Nachdem der Link angeklickt wurde, färbt der Text sich lila.
+
 ##Zusätzliche Informatikstunde<a name="zusatz"><a/>                                                                   13.02.2017
 
 Das Inhaltsverzeichnis funktioniert doch! Man muss die Website nur aktualisieren und ihr einige Zeit geben. Es sind noch einige Fehler drin, die jetzt behoben werden!
@@ -70,6 +72,8 @@ Das Inhaltsverzeichnis funktioniert doch! Man muss die Website nur aktualisieren
 Im Folgenden machten wir uns daran, die Bilder auf unsere Website zu übertragen. Dazu benutzten wir einen bestimmten Quellcode in der index.html.
 
 ![Pages14](bilder/Pages14.PNG "Quellcode für Bilder in inedx.html")
+
+Übersetzung: Dies ist die Grundstruktur des HTML-Befehls für das Integrieren von Bildern und Grafiken. Dabei steht img für das englische Wort "image" (Bild) und src für "source" (Quelle). In unserem Fall handelt es sich bei dieser Quelle um den Bilderordner in unserem Repository und den Namen der Datei. Der Alternativtext wird mit dem Attribut "alt" definiert, beispielsweise Bild13. Dies ist als Information für den Surfer von Nutzen. Mit den Attributen "width" (Breite) und "height" Höhe kann man Größe und Verhältnis der Seitenlängen formatieren. Dazu wird im Browser ein Platzhalter in entsprechender Größe vorgesehen. 
 
 Wir haben schon angefangen die Bilder richtig zu formatieren. Hier sieht man ein Beispiel:
 
