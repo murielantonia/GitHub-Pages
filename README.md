@@ -1,4 +1,4 @@
-#GitHub-Pages
+<h1>GitHub-Pages</h1>
 
 [Vierzehnte Informatikstunde](#vierzehn)
 
@@ -14,7 +14,7 @@
 
 [Weitere Informatikstunde](#weitere)
 
-##Vierzehnte Informatikstunde<a name="vierzehn"><a/>                                                               26.01.2017
+<h2>Vierzehnte Informatikstunde</h2><a name="vierzehn"><a/>                                                               26.01.2017
 
 Frohes Neues Jahr 2017!!! Mit guten Vorsätzen starten wir in das neue Jahr!
 Heute haben wir uns das erste Mal mit GitHub Pages auseinander gesetzt, da wir uns zum Ziel gesetzt haben, unser Tic-Tac-Toe Spiel und die dazugehörigen Dokumentationen / Erklärungen auf einer eigenen Website zu präsentieren. Zuerst haben wir uns das Informationsvideo zu GitHub Pages angeschaut. Um eine Website zu programmieren, die im Browser dargestellt werden kann, benötigt man Grundkenntnisse in HTML (Hypertext Markup Language). Dabei handelt es sich um eine Auszeichnungssprache, die dazu dient, Texte, Bilder und Hyperlinks zu strukturieren. Zwar kann man mithilfe von GitHub Pages aus verschiedenen Vorformaten und Themen auswählen, die optisch ansprechend sind, wir haben uns jedoch dazu entschieden, von ganz unten zu beginnen und keine Formatvorlagen zu verwenden ("Start from scratch").
@@ -31,7 +31,7 @@ So sieht unsere Website nach aktuellem Stand aus:
 
 ![Pages03](bilder/Pages03.PNG "Erster Paragraph")
 
-##Fünfzehnte Informatikstunde<a name="fünfzehn"><a/>                                                                09.02.2017
+<h2>Fünfzehnte Informatikstunde</h2><a name="fünfzehn"><a/>                                                                09.02.2017
 
 Heute haben wir erfolgreich GitHub Desktop heruntergeladen. Damit konnten wir vereinfacht den Bilderordner aus der Tic-Tac-Toe Galaxy in den GitHub-Pages Ordner übertragen.
 Zunächst mussten wir unsere Projekte in die Desktopversion clonen.
@@ -64,7 +64,7 @@ Unser Versuch, ein Inhaltsverzeichnis mit Hyperlinks zu erstellen, ist zunächst
 
 Übersetzung: Bei den Links im Inhaltsverzeichnes handelt es sich um interne Links und damit um Verweise innerhalb der Webseite auf Unterseiten. Das a steht für "anchor" (Anker) aus dem Englischen. Verbunden mit dem Attribut href (Hyperreferenz) entsteht ein Verweis eine andere Textstelle, die mit einem Tag markiert ist. Dieser muss an Textstelle und Inhaltsverzeichnis übereinstimmen. Der Linktext, beispielsweise "Idee" ist unabhängig von dieser relativen Addressierung und wird standardmäßig unterstrichen und in blau angezeigt. Nachdem der Link angeklickt wurde, färbt der Text sich lila.
 
-##Zusätzliche Informatikstunde<a name="zusatz"><a/>                                                                   13.02.2017
+<h2>Zusätzliche Informatikstunde</h2><a name="zusatz"><a/>                                                                   13.02.2017
 
 Das Inhaltsverzeichnis funktioniert doch! Man muss die Website nur aktualisieren und ihr einige Zeit geben. Es sind noch einige Fehler drin, die jetzt behoben werden!
 
@@ -80,7 +80,7 @@ Wir haben schon angefangen die Bilder richtig zu formatieren. Hier sieht man ein
 
 ![Pages15](bilder/Pages15.PNG "Erste formatierte Bilder")
 
-##Sechzehnte Informatikstunde<a name="sechzehn"></a>                                                                    14.02.2017
+<h2>Sechzehnte Informatikstunde</h2><a name="sechzehn"></a>                                                             14.02.2017
 
 Da heute Valentinstag ist, haben wir passend zum Thema alle Überschriften pink gefärbt.
 
@@ -96,7 +96,7 @@ Jetzt habe wir erfolgreich unsere Über-Überschrift "Hello World!" nicht nur ge
 
 ![Pages](bilder/Pages20.PNG "Quellcode markiertes Hello World!")
 
-##Siebzehnte Informatikstunde<a name="siebzehn"></a>                                                                  16.02.2017
+<h2>Siebzehnte Informatikstunde</h2><a name="siebzehn"></a>                                                                  16.02.2017
 
 Heute erstellten wir zunächst eine kleine "Werbung" für unseren GitHub Account.
 
@@ -111,7 +111,7 @@ Danach machten wir uns weiter daran, die Bilder so zu formatieren, dass sie auf 
 Da dies, nach einer mühseligen Doppelstunde, noch nicht für alle Bilder geklappt hat, hat Stefan uns noch einen Tipp gegeben: Wir können die Maße auch auf dem Desktop für jedes Bild ablesen. Zu Hause werden wir uns also noch einmal mit der Formatierung befassen!
 
 
-##Zusätzliche Informatikstunde<a name="zusätzlich"></a>                                                           17.02.2017
+<h2>Zusätzliche Informatikstunde</h2><a name="zusätzlich"></a>                                                           17.02.2017
 
 Nachdem wir alle Bilder aus unserem "bilder" Ordner von unserem GitHub-Pages Projekt auf das Dektop heruntergeladen haben, konnten wir die Eigenschaften jedes einzelnen Bildes öffnen. Ganz oben konnten wir nun die richtigen Maße ablesen. Diese wurden dann in die Angaben im index Quellcode übertragen.
 
@@ -125,7 +125,7 @@ Schließlich programmierten wir noch einen inneren Link hinter jedes Kapitel, um
 
 Übersetzung: Wir nutzten einen Tag, welcher in der Überschrift "Hello World!" auch verlinkt ist. Unseren inneren Link nannten wir "Zurück zum Anfang". Klickt man diesen nun, kommt man zu der Überschrift "Hello World" zurück und kann so auch das Inhaltsverzeichnis sehen. Das erleichtert es um einiges, sich auf der Website zu bewegen!
 
-##Weitere Informatikstunde<a name="weitere"></a>                                                                  18.02.2017
+<h2>Weitere Informatikstunde</h2><a name="weitere"></a>                                                                  18.02.2017
 
 Da wir diese Website so weit erfolgreich erstellt haben, wurde nun eine Website unter dem Titel "GitHub-Pages 2.0" erstellt. Auf dieser wird dem Leser das lästige scrollen erspart!
 Dazu machten wir für jedes Kapitel einen eigenen Quellcode und verlinkten diesen mit einem äußeren Link auf der Startseite. Nun nimmt unsere Website langsam mehr gestalt an. Wir nutzten für jede Unterseite eine andere Hintergrundfarbe. Hier der Link zu der Seite: https://murielantonia.github.io/GitHub-Pages-2.0/Startseite
